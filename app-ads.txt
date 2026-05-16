@@ -22,6 +22,7 @@ betweendigital.com, 45827, RESELLER
 bidmachine.io, 1371, RESELLER
 bidmachine.io, 1412, RESELLER
 bidmachine.io, 896, RESELLER
+bigoads.com, 200412562, DIRECT
 blueseasx.com, 203625, RESELLER
 bold-win.com, 165, RESELLER, 71746737d0bab951
 chartboost.com, 6a084c8982c59bfdd3d1b2d2, DIRECT
