@@ -25,7 +25,7 @@ bidmachine.io, 896, RESELLER
 bigoads.com, 200412562, DIRECT
 blueseasx.com, 203625, RESELLER
 bold-win.com, 165, RESELLER, 71746737d0bab951
-chartboost.com, 6a084c8982c59bfdd3d1b2d2, DIRECT
+chartboost.com, 6a084e1c7efe04f6ac3192fd, DIRECT
 contextweb.com, 558622, RESELLER, 89ff185a4c4e857c
 conversantmedia.com, 41024, RESELLER, 03113cd04947736d
 criteo.com, b-062019, RESELLER, 9fac4a4a87c2a44f
