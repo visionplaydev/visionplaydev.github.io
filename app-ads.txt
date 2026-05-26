@@ -157,3 +157,4 @@ zmaticoo.com, 5135195, RESELLER
 
 vungle.com, 6a08379a51d3f160acc5d92a, DIRECT, c107d686becd2d77
 fyber.com, 238506, DIRECT
+pubnative.net, 1017947, DIRECT, d641df8625486a7b
