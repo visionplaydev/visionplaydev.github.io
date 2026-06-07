@@ -1,4 +1,4 @@
-google.com, pub-2733960970116171, DIRECT, f08c47fec0942fa0
+﻿google.com, pub-2733960970116171, DIRECT, f08c47fec0942fa0
 facebook.com, 1520650752992858, DIRECT, c3e20eee3f780d68
 ironsrc.com, 653621, DIRECT
 adagio.io, 1522, RESELLER
@@ -897,3 +897,114 @@ admixer.co.kr, 1094, RESELLER
 inmobi.com, 57c71c226d3840bebea93f27c1a5169c, RESELLER, 83e75a7ae333ca9d
 xad.com, 963, RESELLER, 81cbf0a75a5e0e9a
 improvedigital.com, 2451, RESELLER
+verve.com, 15290, RESELLER, 0c8f5958fc2d6270
+improvedigital.com, 2332, RESELLER
+richaudience.com, H5gc9Aa862, RESELLER
+greyalpha.agency, greyGKcqIXYbcwR, RESELLER
+revealon.media, 18069, RESELLER
+loopme.com, 11322, RESELLER, 6c8d5f95897a5a3b
+opera.com, pub6920333082432, RESELLER, 55a0c5fd61378de3
+pubmatic.com, 160145, RESELLER, 5d62403b186f2ace
+pubmatic.com, 161144, RESELLER, 5d62403b186f2ace
+pubmatic.com, 161368, RESELLER, 5d62403b186f2ace
+indexexchange.com, 207402, RESELLER, 50b1c356f2c5c8fc
+rubiconproject.com, 15278, RESELLER, 0bfd66d529a55807
+brainx.tech, 267, RESELLER
+start.io, 178854833, RESELLER
+blasto.ai, 935, RESELLER, 7e936b1feafdaa61
+app-stock.com, 317847, RESELLER
+thunder-monetize.com, 3588802677, RESELLER
+media.net, 8CUNEOK3R, RESELLER
+thebrave.io, 1234589, RESELLER, c25b2154543746ac
+mars.media, 1010380, RESELLER, 8624339f102fb076
+bold-win.com, 147, RESELLER, 71746737d0bab951
+spinx.biz, 3198992692, RESELLER
+pubmatic.com, 167103, RESELLER, 5d62403b186f2ace
+odeeo.io, 128603920, RESELLER, 36cfd73091d5c3fc
+smartadserver.com, 4083, RESELLER
+motorik.io, 65, RESELLER
+mediaverse.ai, 302152862, RESELLER
+blueseasx.com, 7138094, RESELLER, 7998eac5087f6110
+voisetech.com, 1004, RESELLER
+adelement.com, 42001, RESELLER
+mobimight.com, 75764, RESELLER
+selectmedia.asia, 645b5a31e427dc0a87091fe1, RESELLER, e365c871a27c655d
+mediayo.ai, AJxF6R15a9M6CaTvK, RESELLER
+fourthdimentionconsulting.com, 19118818, RESELLER
+showheroes.com, 6016, RESELLER
+eskimi.com, 2020000009, RESELLER
+uis.mobfox.com, 1944, RESELLER, 5529a3d1f59865be
+ushareit.com, LC5a6e860b2be2187f, RESELLER
+castify.ai, 1252012, RESELLER
+myfeature.tv, 3b1033e428f84e9aae82, RESELLER
+tubia.com, 40103, RESELLER
+copper6.com, 766156, RESELLER
+toponad.com, 1636caf4cee9fe, RESELLER, 1d49fe424a1a456d
+prequel.tv, 513, RESELLER
+zmaticoo.com, 5135128, RESELLER
+bidease.com, bidease_seller_41, RESELLER
+bematterfull.com, 85470298878, RESELLER
+eliteappgrade.com, 312569, RESELLER
+smartbid.ai, 180201011, RESELLER
+adnimation.com, 20250074, RESELLER
+singularads.com, 554789, RESELLER
+grouprvn.com, n1o21Ga0G23, RESELLER
+smartyads.com, 4244, RESELLER, fd2bde0ff2e62c5d
+adview.com, 53218885, RESELLER, 1b2cc038a11ea319
+risecodes.com, 6769332c8eb1b90001e9ed6f, RESELLER
+twist.win, TW2400128, RESELLER
+beapup.com, 658874, RESELLER
+my-cast.tv, 986754, RESELLER, 71746737d0bab951
+eyeconicspot.com, 4844, RESELLER, 2cec374be7db7217
+bridgeupp.com, 14725, RESELLER
+playdigo.com, 1951, RESELLER
+theaudiencestreet.com, 92311, RESELLER
+advisermedia.co, 70576, RESELLER
+programmaticx.ai, 6888888, RESELLER, b42d42eb28400efa
+nitrouppi.com, 889928, RESELLER
+prado.co, 15633, RESELLER
+mobupps.com, c74d97b01eae257e44aa9d5bade97baf5658, RESELLER
+pubeasy.io, 110049, RESELLER
+sipo-inc.com, 867525, RESELLER
+velonium.com, 133428, RESELLER
+azberry.com, 210127, RESELLER
+carbonatix.com, 164931029, RESELLER
+targetbetter.com, 2082019, RESELLER
+openx.com, 537152826, RESELLER, 6a698e2ec38604c6
+brightmountainmedia.com, 2686539, RESELLER
+connekt.ai, 8271873578, RESELLER
+adsinteractive.com, 99998, RESELLER
+onomagic.com, 203721, RESELLER
+iqzone.com, d2e0f8e604576d3403d193e3c28b0dcf, RESELLER
+keenkale.com, 94044, RESELLER, 6c1c00b269ccdfa4
+redmob.io, 20260324000001, RESELLER
+iion.io, 10057, RESELLER, 013a29748465dc57
+boostappi.com, 10012, RESELLER
+openx.com, 540543195, RESELLER, 6a698e2ec38604c6
+adorphic.com, 2639, RESELLER
+growintech.co, 36854, RESELLER
+sharethrough.com, 77240395, RESELLER, d53b998a7bd4ecd2
+screenil.com, 521732, RESELLER
+tunnl.com, 61027, RESELLER
+getmediamx.com, 1220372, RESELLER
+9dotsmedia.com, 1182, RESELLER, 45ff185b4c4e857d
+media.net, 8CU82Q277, RESELLER
+addigi.media, 176543348, RESELLER
+bluexad.ai, 1982740240711815168, RESELLER
+smilewanted.com, 3829, RESELLER
+onetag.com, 960409b77c81289, RESELLER
+bidtox.com, 38299, RESELLER
+pokkt.com, 7246, RESELLER, c45702d9311e25fd
+kinetix.tv, 11474, RESELLER
+bidence.com, c960681141c40bb4da24a183d273fd37, RESELLER
+advlion.com, 3570, RESELLER
+markappmedia.site, 0012998, RESELLER
+bid-matrix.com, 3b1aacf42de85b72, RESELLER
+yellowhead.com, e0a1d3b2c6f495, RESELLER
+cazhype.com, efe937780e95574250dabe07151bdc2332794, RESELLER
+bildapp.net, 762792740, RESELLER
+aceex.io, 1187, RESELLER, b1cf3c874d5c6682
+tradplusad.com, bf0675b350e773de, RESELLER
+radiancemedia.net, 21966, RESELLER
+azurebid.com, 4603949149, RESELLER
+videoshakers.tv, 58204917364298, RESELLER, 819580c2afa8a3aa
