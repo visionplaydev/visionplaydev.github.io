@@ -23,7 +23,7 @@
     function apply(lang) {
       nodes.forEach((el) => { el.innerHTML = lang === "ko" ? el.dataset.ko : el.dataset.en; });
       document.documentElement.lang = lang;
-      toggles.forEach((b) => { b.textContent = lang === "ko" ? "ENG" : "한국어"; });
+      toggles.forEach((b) => { b.textContent = lang === "ko" ? "한국어" : "English"; });
       try { localStorage.setItem("vpd_lang", lang); } catch (e) {}
     }
     let lang = "en";
