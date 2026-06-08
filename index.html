@@ -1,25 +1,239 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Vision Play (비전)</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vision.Play.dev — Mobile Game Studio</title>
+  <meta name="description" content="Vision.Play.dev is an independent mobile game studio from South Korea, and the creators of Block Lumi — a glowing block puzzle played worldwide on iOS and Android." />
+  <meta name="theme-color" content="#070a16" />
+  <link rel="icon" type="image/png" href="assets/app-icon.png" />
+  <link rel="apple-touch-icon" href="assets/app-icon.png" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Vision.Play.dev — Mobile Game Studio" />
+  <meta property="og:description" content="Creators of Block Lumi, a glowing block puzzle played worldwide. Play free on iOS & Android." />
+  <meta property="og:url" content="https://visionplaydev.github.io/" />
+  <meta property="og:image" content="https://visionplaydev.github.io/assets/app-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Vision.Play.dev — Mobile Game Studio" />
+  <meta name="twitter:description" content="Creators of Block Lumi, a glowing block puzzle played worldwide." />
+  <meta name="twitter:image" content="https://visionplaydev.github.io/assets/app-icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
-    <h1>Vision Play (비전)</h1>
-    <p>운영사: 비전 / Vision · 사업자등록번호 211-25-65799 · 대표 박재형</p>
-    
-    <br>
-    <h3>Mobile Game Studio.</h3>
-    
-    <hr>
-    
-    <h2>Our Games</h2>
-    <div>
-        <h3>Block Lumi (블록 루미)</h3>
-        <ul>
-            <li><strong>Android:</strong> <a href="https://play.google.com/store/apps/details?id=com.vision.blocklumi" target="_blank">Google Play Store</a></li>
-            <li><strong>iOS:</strong> <a href="https://apps.apple.com/app/id6765803755" target="_blank">APP Store</a></li>
-        </ul>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" id="top">
+    <div class="container nav-bar">
+      <a class="brand" href="#top" aria-label="Vision.Play.dev home">
+        <img src="assets/vpd-logo.png" alt="Vision.Play.dev" />
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#game">Block Lumi</a>
+        <a href="#features" data-ko="기능">Features</a>
+        <a href="#studio" data-ko="스튜디오">Studio</a>
+        <a class="btn btn-ghost nav-cta" href="#game" data-ko="플레이하기">Play Now</a>
+        <button class="lang-toggle" type="button" data-lang-toggle aria-label="Switch language">한국어</button>
+      </nav>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
     </div>
+    <div class="mobile-menu" hidden>
+      <a href="#game">Block Lumi</a>
+      <a href="#features" data-ko="기능">Features</a>
+      <a href="#studio" data-ko="스튜디오">Studio</a>
+      <a href="#game" data-ko="플레이하기">Play Now</a>
+      <button class="lang-toggle" type="button" data-lang-toggle>한국어</button>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hero">
+    <div class="stars" aria-hidden="true"></div>
+    <div class="grid-overlay" aria-hidden="true"></div>
+    <div class="aurora aurora-1" aria-hidden="true"></div>
+    <div class="aurora aurora-2" aria-hidden="true"></div>
+    <div class="float-layer" aria-hidden="true"></div>
+
+    <div class="container hero-inner">
+      <span class="eyebrow reveal" data-ko="독립 모바일 게임 스튜디오 · 대한민국">Independent Mobile Game Studio · South Korea</span>
+      <h1 class="hero-logo reveal">
+        <img src="assets/vpd-logo.png" alt="Vision.Play.dev" />
+      </h1>
+      <p class="hero-tagline reveal" data-ko="<span class=&quot;glow-word&quot;>빛나는</span> 모바일 게임.">Mobile games that <span class="glow-word">glow</span>.</p>
+      <p class="hero-sub reveal" data-ko="전 세계 플레이어를 위해 — 몇 초 만에 빠져들고 몇 시간을 즐기도록, 정성껏 다듬은 퍼즐 게임을 만듭니다.">We craft polished, delightful puzzle games — designed to be picked up in seconds and loved for hours, by players all over the world.</p>
+      <div class="hero-cta reveal">
+        <a class="btn btn-primary" href="#game" data-ko="Block Lumi 살펴보기">Discover Block Lumi</a>
+        <a class="btn btn-ghost" href="#studio" data-ko="스튜디오 소개">About the studio</a>
+      </div>
+      <div class="hero-badges reveal" data-badges></div>
+    </div>
+
+    <a href="#game" class="scroll-cue" aria-label="Scroll down">
+      <span class="scroll-dot"></span>
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </section>
+
+  <!-- ===================== FEATURED GAME ===================== -->
+  <section class="game" id="game">
+    <div class="container game-inner">
+      <!-- Phone mockup -->
+      <div class="phone-wrap reveal">
+        <div class="phone" aria-hidden="true">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <div class="shots" data-shots>
+              <img src="assets/shots/shot1.jpg" alt="Block Lumi gameplay — combo line clear" class="shot is-active" />
+              <img src="assets/shots/shot2.jpg" alt="Block Lumi gameplay — power-up blast" class="shot" loading="lazy" />
+              <img src="assets/shots/shot3.jpg" alt="Block Lumi gameplay — gem collection stage" class="shot" loading="lazy" />
+            </div>
+          </div>
+          <div class="shot-dots" data-shot-dots aria-hidden="true"></div>
+        </div>
+        <div class="phone-glow"></div>
+      </div>
+
+      <!-- Copy -->
+      <div class="game-copy">
+        <span class="eyebrow reveal" data-ko="대표 게임">Our Flagship Game</span>
+        <div class="game-logo reveal">
+          <img src="assets/game-logo.png" alt="Block Lumi" />
+        </div>
+        <div class="rating reveal" aria-label="Loved by players worldwide">
+          <span class="stars-5" aria-hidden="true">★★★★★</span>
+          <span class="rating-text" data-ko="전 세계 플레이어가 즐기는 게임">Loved by players worldwide</span>
+        </div>
+        <p class="game-desc reveal" data-ko="클래식 블록 퍼즐에 빛을 더했습니다. 빛나는 블록을 맞춰 라인을 지우고 최고 점수에 도전하세요. 그리고 실시간 <strong>1 v 1 아레나</strong> 대전에서 글로벌 랭킹을 올려보세요. 배우긴 쉽고, 끝없이 짜릿합니다.">
+          A glowing twist on the classic block puzzle. Snap luminous blocks into place,
+          clear lines, and chase high scores — then jump into real-time <strong>1&nbsp;v&nbsp;1 Arena</strong>
+          battles and climb the global leaderboard. Simple to learn, endlessly satisfying.
+        </p>
+        <ul class="chips reveal">
+          <li data-ko="⚔️ 실시간 아레나">⚔️ Real-time Arena</li>
+          <li data-ko="👑 글로벌 랭킹">👑 Global Rankings</li>
+          <li data-ko="🧩 클래식 &amp; 엔드리스">🧩 Classic &amp; Endless</li>
+          <li data-ko="✈️ 오프라인 플레이">✈️ Plays Offline</li>
+        </ul>
+        <div class="store-badges reveal" data-badges></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ARENA SHOWCASE ===================== -->
+  <section class="arena" id="arena">
+    <div class="stars stars-dim" aria-hidden="true"></div>
+    <div class="container arena-inner">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-ko="신규 · 실시간 멀티플레이">New · Real-time Multiplayer</span>
+        <h2 data-ko="<span class=&quot;grad-text&quot;>아레나</span>에 입장하세요">Step into the <span class="grad-text">Arena</span></h2>
+        <p class="section-sub" data-ko="실시간 1 v 1 대전으로 맞붙으세요. 라인을 지워 공격하고, 쏟아지는 공격을 버텨내 글로벌 랭킹 정상에 오르세요.">Go head-to-head in live 1&nbsp;v&nbsp;1 duels. Clear lines to attack, weather the chaos, and rise to the top of the global leaderboard.</p>
+      </div>
+      <div class="arena-banner reveal">
+        <img src="assets/arena-banner.jpg" alt="Block Lumi Arena — Think fast. Attack hard. Be the champion." />
+        <div class="arena-banner-glow" aria-hidden="true"></div>
+      </div>
+      <div class="arena-cta reveal">
+        <a class="btn btn-primary" href="#game" data-ko="지금 대전하기">Battle now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FEATURES ===================== -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-ko="플레이어가 머무는 이유">Why players stay</span>
+        <h2 data-ko="<span class=&quot;grad-text&quot;>즐거움</span>을 위해 만들고, 빛날 때까지 다듬다">Built to <span class="grad-text">delight</span>, polished to shine</h2>
+        <p class="section-sub" data-ko="블록이 맞물리는 손맛부터 라인이 지워질 때의 빛까지 — 모든 디테일을 딱 맞게 다듬었습니다.">Every detail — from the satisfying snap of a block to the glow of a cleared line — is tuned to feel just right.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card reveal">
+          <div class="fc-icon"><img src="assets/tiles/t3.png" alt="" /></div>
+          <h3 data-ko="실시간 아레나">Real-time Arena</h3>
+          <p data-ko="실시간 1 v 1 대결로 맞붙으세요. 가비지 라인을 보내고, 공격을 피하고, 상대보다 끝까지 살아남으세요.">Go head-to-head in live 1&nbsp;v&nbsp;1 matches. Send garbage lines, dodge attacks, and outlast your rival.</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="fc-icon"><img src="assets/crown.png" alt="" /></div>
+          <h3 data-ko="랭킹을 올리세요">Climb the Ranks</h3>
+          <p data-ko="트로피를 모으고 주간 랭킹을 올라, 전 세계 플레이어 중 최고임을 증명하세요.">Earn trophies, rise through weekly leaderboards, and prove you're the best among players worldwide.</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="fc-icon"><img src="assets/tiles/t9.png" alt="" /></div>
+          <h3 data-ko="모두를 위한 모드">Modes for Everyone</h3>
+          <p data-ko="클래식으로 여유롭게, 엔드리스로 한계까지, 아레나에서 영광을 향해. 늘 새로운 즐길 거리가 있습니다.">Relax with Classic, push your limits in Endless, or battle for glory in Arena. Always something new.</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="fc-icon"><img src="assets/tiles/t6.png" alt="" /></div>
+          <h3 data-ko="언제 어디서나">Anytime, Anywhere</h3>
+          <p data-ko="어떤 폰에서도 부드럽고, 오프라인에서도 즐기며, 몇 초면 준비 끝 — 다음 판은 늘 한 번의 터치 거리에 있습니다.">Smooth on every phone, playable offline, and ready in seconds — your next match is always one tap away.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== STUDIO ===================== -->
+  <section class="studio" id="studio">
+    <div class="stars stars-dim" aria-hidden="true"></div>
+    <div class="container studio-inner">
+      <div class="studio-copy reveal">
+        <span class="eyebrow" data-ko="스튜디오 소개">About the studio</span>
+        <h2 data-ko="우리는 <span class=&quot;grad-text&quot;>Vision.Play.dev</span>입니다">We're <span class="grad-text">Vision.Play.dev</span></h2>
+        <p data-ko="대한민국에 기반한 독립 모바일 게임 스튜디오입니다. 훌륭한 게임은 작고 정성스러운 디테일에서 나온다고 믿습니다 — 그래서 적게 만들고, 빛날 때까지 다듬습니다. Block Lumi는 그 시작일 뿐입니다.">An independent mobile game studio based in South Korea. We believe great games come from small, sweated details — so we build a few things, and we polish them until they glow. Block Lumi is just the beginning.</p>
+        <div class="stat-row">
+          <div class="stat"><span class="stat-num">16+</span><span class="stat-label" data-ko="지원 언어">Languages</span></div>
+          <div class="stat"><span class="stat-num">2</span><span class="stat-label" data-ko="플랫폼">Platforms</span></div>
+          <div class="stat"><span class="stat-num">∞</span><span class="stat-label" data-ko="지울 라인">Lines to clear</span></div>
+        </div>
+      </div>
+      <div class="studio-art reveal" aria-hidden="true">
+        <img src="assets/app-icon.png" alt="" class="studio-icon" />
+        <div class="studio-icon-glow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA ===================== -->
+  <section class="cta">
+    <div class="container cta-inner reveal">
+      <h2 data-ko="<span class=&quot;grad-text&quot;>플레이</span>할 준비 되셨나요?">Ready to <span class="grad-text">play</span>?</h2>
+      <p data-ko="Block Lumi를 무료로 내려받고 전 세계 플레이어와 함께하세요.">Download Block Lumi free and join players around the world.</p>
+      <div class="store-badges store-badges-center" data-badges></div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/vpd-logo.png" alt="Vision.Play.dev" />
+        <p data-ko="빛나는 모바일 게임.">Mobile games that glow.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="#game">Block Lumi</a>
+        <a href="#features" data-ko="기능">Features</a>
+        <a href="#studio" data-ko="스튜디오">Studio</a>
+        <a href="Privacy.md" data-ko="개인정보처리방침">Privacy Policy</a>
+        <a href="https://play.google.com/store/apps/details?id=com.vision.blocklumi" target="_blank" rel="noopener">Google Play</a>
+        <a href="https://apps.apple.com/app/id6765803755" target="_blank" rel="noopener">App Store</a>
+      </nav>
+    </div>
+    <div class="container footer-legal">
+      <div class="legal-lines">
+        <p lang="ko">운영사: Vision.Play.dev · 사업자등록번호 211-25-65979 · 대표 박재형</p>
+        <p lang="en">Operated by Vision.Play.dev · Business Reg. No. 211-25-65979 · Representative Park Jae-hyeong</p>
+      </div>
+      <p class="copyright">© <span data-year>2026</span> Vision.Play.dev. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/main.js" defer></script>
 </body>
 </html>
