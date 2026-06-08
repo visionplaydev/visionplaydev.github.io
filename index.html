@@ -8,6 +8,7 @@
   <meta name="theme-color" content="#070a16" />
   <link rel="icon" type="image/png" href="assets/app-icon.png" />
   <link rel="apple-touch-icon" href="assets/app-icon.png" />
+  <link rel="canonical" href="https://visionplaydev.github.io/" />
 
   <!-- Open Graph / Twitter -->
   <meta property="og:type" content="website" />
@@ -235,6 +236,35 @@
     </div>
   </footer>
 
+  <!-- Structured data for search engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Vision.Play.dev",
+    "url": "https://visionplaydev.github.io/",
+    "logo": "https://visionplaydev.github.io/assets/vpd-logo.png",
+    "description": "Independent mobile game studio from South Korea, creators of Block Lumi.",
+    "foundingLocation": "South Korea"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "Block Lumi",
+    "operatingSystem": "Android, iOS",
+    "applicationCategory": "GameApplication",
+    "url": "https://visionplaydev.github.io/",
+    "image": "https://visionplaydev.github.io/assets/app-icon.png",
+    "author": { "@type": "Organization", "name": "Vision.Play.dev" },
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "downloadUrl": [
+      "https://play.google.com/store/apps/details?id=com.vision.blocklumi",
+      "https://apps.apple.com/app/id6765803755"
+    ]
+  }
+  </script>
   <script src="assets/i18n.js" defer></script>
   <script src="assets/main.js" defer></script>
 </body>
