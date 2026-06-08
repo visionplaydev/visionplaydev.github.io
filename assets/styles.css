@@ -95,10 +95,14 @@ section{scroll-margin-top:84px}
 .nav-links a{font-family:"Poppins",sans-serif;font-weight:500;font-size:.95rem;color:var(--ink-soft);transition:color .2s}
 .nav-links a:hover{color:var(--ink)}
 .nav-links .nav-cta{padding:.55em 1.2em;color:var(--ink)}
-.lang-toggle{font-family:"Poppins",sans-serif;font-weight:600;font-size:.8rem;color:var(--ink-soft);
-  background:rgba(255,255,255,.06);border:1px solid var(--panel-brd);border-radius:999px;
-  padding:.45em 1em;cursor:pointer;transition:color .2s,background .2s,border-color .2s;min-width:62px}
-.lang-toggle:hover{color:var(--ink);background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.32)}
+.lang-select{font-family:"Poppins",sans-serif;font-weight:600;font-size:.8rem;color:var(--ink-soft);
+  background-color:rgba(255,255,255,.06);border:1px solid var(--panel-brd);border-radius:999px;
+  padding:.45em 1.9em .45em 2.4em;cursor:pointer;transition:color .2s,background .2s,border-color .2s;
+  -webkit-appearance:none;-moz-appearance:none;appearance:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23aab4d6' stroke-width='1.6'%3E%3Ccircle cx='12' cy='12' r='9.5'/%3E%3Cline x1='12' y1='2.5' x2='12' y2='21.5'/%3E%3Cline x1='2.5' y1='12' x2='21.5' y2='12'/%3E%3Cellipse cx='12' cy='12' rx='4.3' ry='9.5'/%3E%3Cline x1='4.6' y1='7.5' x2='19.4' y2='7.5'/%3E%3Cline x1='4.6' y1='16.5' x2='19.4' y2='16.5'/%3E%3C/svg%3E"),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23aab4d6' stroke-width='3' stroke-linecap='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat:no-repeat,no-repeat;background-position:left .8em center,right .7em center;background-size:14px,11px}
+.lang-select:hover{color:var(--ink);background-color:rgba(255,255,255,.12);border-color:rgba(255,255,255,.32)}
+.lang-select option{color:#10131f;background:#fff}
 .nav-toggle{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:8px}
 .nav-toggle span{width:24px;height:2px;background:var(--ink);border-radius:2px;transition:.3s}
 .nav-toggle[aria-expanded="true"] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
@@ -111,7 +115,7 @@ section{scroll-margin-top:84px}
 .mobile-menu:not([hidden]){display:flex}
 .mobile-menu a{font-family:"Poppins",sans-serif;padding:12px 6px;color:var(--ink-soft);border-bottom:1px solid rgba(255,255,255,.05)}
 .mobile-menu a:hover{color:var(--gold)}
-.mobile-menu .lang-toggle{align-self:flex-start;margin-top:12px}
+.mobile-menu .lang-select{align-self:flex-start;margin-top:12px}
 
 /* =========================================================
    Shared FX layers (stars / grid / aurora)
@@ -253,6 +257,17 @@ section{scroll-margin-top:84px}
 .arena-banner img{width:100%;display:block}
 .arena-banner-glow{position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 50px rgba(0,0,0,.35);border-radius:inherit}
 .arena-cta{text-align:center;margin-top:36px}
+.arena-items-head{text-align:center;margin:46px 0 18px;color:var(--ink-soft);font-family:"Poppins",sans-serif;font-weight:600}
+.arena-items{list-style:none;padding:0;margin:0 auto;max-width:880px;display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.arena-items li{display:flex;flex-direction:column;align-items:center;text-align:center;gap:7px;padding:24px 14px;border-radius:var(--radius);background:var(--panel);border:1px solid var(--panel-brd)}
+.arena-items .ai-ico{font-size:2rem;line-height:1}
+.arena-items strong{font-family:"Poppins",sans-serif;font-size:1.02rem;color:var(--ink)}
+.arena-items li span:last-child{font-size:.84rem;color:var(--ink-dim);line-height:1.45}
+@media (max-width:680px){.arena-items{grid-template-columns:repeat(2,1fr)}}
+
+/* RTL (Arabic) */
+[dir="rtl"] .game-copy,[dir="rtl"] .studio-copy{text-align:right}
+[dir="rtl"] .game-copy .chips,[dir="rtl"] .game-copy .rating,[dir="rtl"] .game-copy .store-badges{justify-content:flex-end}
 
 /* =========================================================
    FEATURES

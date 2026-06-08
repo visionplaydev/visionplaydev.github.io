@@ -15,23 +15,46 @@
   const yearEl = $("[data-year]");
   if (yearEl) yearEl.textContent = String(new Date().getFullYear());
 
-  /* ---------- i18n: Korean / English toggle ---------- */
+  /* ---------- i18n: 16-language dictionary ---------- */
   (function i18n() {
-    const nodes = $$("[data-ko]");
-    nodes.forEach((el) => { if (el.dataset.en == null) el.dataset.en = el.innerHTML; });
-    const toggles = $$("[data-lang-toggle]");
+    const data = window.I18N;
+    if (!data) return;
+    const S = data.strings;
+    const codes = data.langs.map((l) => l.code);
+    const rtl = data.rtl || [];
+    const nodes = $$("[data-i18n]");
+    const selects = $$("[data-lang-select]");
+
+    selects.forEach((sel) => {
+      sel.innerHTML = data.langs.map((l) => `<option value="${l.code}">${l.name}</option>`).join("");
+    });
+
+    function pick() {
+      try { const saved = localStorage.getItem("vpd_lang"); if (saved && S[saved]) return saved; } catch (e) {}
+      const navs = (navigator.languages && navigator.languages.length) ? navigator.languages : [navigator.language || "en"];
+      for (const raw of navs) {
+        if (!raw) continue;
+        const low = raw.toLowerCase();
+        if (low.indexOf("zh") === 0) return (low.indexOf("tw") >= 0 || low.indexOf("hk") >= 0 || low.indexOf("hant") >= 0) ? "zh-Hant" : "zh-Hans";
+        const base = low.split("-")[0];
+        const hit = codes.find((c) => c.toLowerCase() === low || c.toLowerCase() === base);
+        if (hit) return hit;
+      }
+      return "en";
+    }
+
     function apply(lang) {
-      nodes.forEach((el) => { el.innerHTML = lang === "ko" ? el.dataset.ko : el.dataset.en; });
+      if (!S[lang]) lang = "en";
+      const dict = S[lang];
+      nodes.forEach((el) => { const v = dict[el.dataset.i18n]; if (v != null) el.innerHTML = v; });
       document.documentElement.lang = lang;
-      toggles.forEach((b) => { b.textContent = lang === "ko" ? "한국어" : "English"; });
+      document.documentElement.dir = rtl.indexOf(lang) >= 0 ? "rtl" : "ltr";
+      selects.forEach((sel) => { if (sel.value !== lang) sel.value = lang; });
       try { localStorage.setItem("vpd_lang", lang); } catch (e) {}
     }
-    let lang = "en";
-    try { lang = localStorage.getItem("vpd_lang") || "en"; } catch (e) {}
-    apply(lang === "ko" ? "ko" : "en");
-    toggles.forEach((b) => b.addEventListener("click", () => {
-      apply(document.documentElement.lang === "ko" ? "en" : "ko");
-    }));
+
+    selects.forEach((sel) => sel.addEventListener("change", () => apply(sel.value)));
+    apply(pick());
   })();
 
   /* ---------- Header scroll state ---------- */
