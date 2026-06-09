@@ -30,7 +30,11 @@
     const cur = document.documentElement.lang || "en";
     $$("[data-lang-select]").forEach((sel) => {
       sel.innerHTML = LANGS.map((l) => `<option value="${l.u}"${l.c === cur ? " selected" : ""}>${l.n}</option>`).join("");
-      sel.addEventListener("change", () => { if (sel.value) window.location.href = sel.value; });
+      sel.addEventListener("change", () => {
+        if (!sel.value) return;
+        try { localStorage.setItem("vpd_lang_manual", "1"); } catch (e) {}
+        window.location.href = sel.value;
+      });
     });
   })();
 

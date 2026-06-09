@@ -3,6 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>/* auto-language by browser preference (root only) */
+  (function(){try{if(localStorage.getItem("vpd_lang_manual"))return;}catch(e){}
+  var M={ko:1,ja:1,es:1,fr:1,de:1,it:1,pt:1,ru:1,hi:1,th:1,vi:1,tr:1,ar:1};
+  var L=(navigator.languages&&navigator.languages.length)?navigator.languages:[navigator.language||"en"];
+  for(var i=0;i<L.length;i++){var r=(L[i]||"").toLowerCase();if(!r)continue;
+  if(r.indexOf("zh")===0){location.replace((r.indexOf("tw")>=0||r.indexOf("hk")>=0||r.indexOf("hant")>=0)?"/zh-Hant/":"/zh-Hans/");return;}
+  var b=r.split("-")[0];if(b==="en")return;if(M[b]){location.replace("/"+b+"/");return;}}})();</script>
   <title>Vision.Play.dev — Independent Mobile Game Studio · South Korea</title>
   <meta name="description" content="We craft polished, delightful puzzle games — designed to be picked up in seconds and loved for hours, by players all over the world." />
   <meta name="theme-color" content="#070a16" />
@@ -43,7 +50,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="/assets/styles.css?v=ml2" />
+  <link rel="stylesheet" href="/assets/styles.css?v=ml3" />
 </head>
 <body>
 
@@ -283,6 +290,6 @@
     ]
   }
   </script>
-  <script src="/assets/main.js?v=ml2" defer></script>
+  <script src="/assets/main.js?v=ml3" defer></script>
 </body>
 </html>
