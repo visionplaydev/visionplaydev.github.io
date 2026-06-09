@@ -15,46 +15,23 @@
   const yearEl = $("[data-year]");
   if (yearEl) yearEl.textContent = String(new Date().getFullYear());
 
-  /* ---------- i18n: 16-language dictionary ---------- */
-  (function i18n() {
-    const data = window.I18N;
-    if (!data) return;
-    const S = data.strings;
-    const codes = data.langs.map((l) => l.code);
-    const rtl = data.rtl || [];
-    const nodes = $$("[data-i18n]");
-    const selects = $$("[data-lang-select]");
-
-    selects.forEach((sel) => {
-      sel.innerHTML = data.langs.map((l) => `<option value="${l.code}">${l.name}</option>`).join("");
+  /* ---------- Language picker (each language is its own static page) ---------- */
+  (function langPicker() {
+    const LANGS = [
+      { c: "en", n: "English", u: "/" }, { c: "ko", n: "한국어", u: "/ko/" },
+      { c: "ja", n: "日本語", u: "/ja/" }, { c: "zh-Hans", n: "简体中文", u: "/zh-Hans/" },
+      { c: "zh-Hant", n: "繁體中文", u: "/zh-Hant/" }, { c: "es", n: "Español", u: "/es/" },
+      { c: "fr", n: "Français", u: "/fr/" }, { c: "de", n: "Deutsch", u: "/de/" },
+      { c: "it", n: "Italiano", u: "/it/" }, { c: "pt", n: "Português", u: "/pt/" },
+      { c: "ru", n: "Русский", u: "/ru/" }, { c: "hi", n: "हिन्दी", u: "/hi/" },
+      { c: "th", n: "ไทย", u: "/th/" }, { c: "vi", n: "Tiếng Việt", u: "/vi/" },
+      { c: "tr", n: "Türkçe", u: "/tr/" }, { c: "ar", n: "العربية", u: "/ar/" }
+    ];
+    const cur = document.documentElement.lang || "en";
+    $$("[data-lang-select]").forEach((sel) => {
+      sel.innerHTML = LANGS.map((l) => `<option value="${l.u}"${l.c === cur ? " selected" : ""}>${l.n}</option>`).join("");
+      sel.addEventListener("change", () => { if (sel.value) window.location.href = sel.value; });
     });
-
-    function pick() {
-      try { const saved = localStorage.getItem("vpd_lang"); if (saved && S[saved]) return saved; } catch (e) {}
-      const navs = (navigator.languages && navigator.languages.length) ? navigator.languages : [navigator.language || "en"];
-      for (const raw of navs) {
-        if (!raw) continue;
-        const low = raw.toLowerCase();
-        if (low.indexOf("zh") === 0) return (low.indexOf("tw") >= 0 || low.indexOf("hk") >= 0 || low.indexOf("hant") >= 0) ? "zh-Hant" : "zh-Hans";
-        const base = low.split("-")[0];
-        const hit = codes.find((c) => c.toLowerCase() === low || c.toLowerCase() === base);
-        if (hit) return hit;
-      }
-      return "en";
-    }
-
-    function apply(lang) {
-      if (!S[lang]) lang = "en";
-      const dict = S[lang];
-      nodes.forEach((el) => { const v = dict[el.dataset.i18n]; if (v != null) el.innerHTML = v; });
-      document.documentElement.lang = lang;
-      document.documentElement.dir = rtl.indexOf(lang) >= 0 ? "rtl" : "ltr";
-      selects.forEach((sel) => { if (sel.value !== lang) sel.value = lang; });
-      try { localStorage.setItem("vpd_lang", lang); } catch (e) {}
-    }
-
-    selects.forEach((sel) => sel.addEventListener("change", () => apply(sel.value)));
-    apply(pick());
   })();
 
   /* ---------- Header scroll state ---------- */

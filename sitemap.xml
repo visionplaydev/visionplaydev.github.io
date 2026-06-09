@@ -1,9 +1,339 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://visionplaydev.github.io/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.github.io/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.github.io/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.github.io/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.github.io/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.github.io/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.github.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.github.io/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.github.io/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.github.io/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.github.io/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.github.io/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.github.io/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://visionplaydev.github.io/ko/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.github.io/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.github.io/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.github.io/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.github.io/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.github.io/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.github.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.github.io/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.github.io/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.github.io/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.github.io/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.github.io/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.github.io/"/>
+    <lastmod>2026-06-09</lastmod>
+  </url>
+  <url>
+    <loc>https://visionplaydev.github.io/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.github.io/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.github.io/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.github.io/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.github.io/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.github.io/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.github.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.github.io/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.github.io/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.github.io/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.github.io/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.github.io/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.github.io/"/>
+    <lastmod>2026-06-09</lastmod>
+  </url>
+  <url>
+    <loc>https://visionplaydev.github.io/zh-Hans/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.github.io/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.github.io/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.github.io/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.github.io/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.github.io/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.github.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.github.io/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.github.io/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.github.io/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.github.io/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.github.io/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.github.io/"/>
+    <lastmod>2026-06-09</lastmod>
+  </url>
+  <url>
+    <loc>https://visionplaydev.github.io/zh-Hant/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.github.io/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.github.io/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.github.io/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.github.io/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.github.io/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.github.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.github.io/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.github.io/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.github.io/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.github.io/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.github.io/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.github.io/"/>
+    <lastmod>2026-06-09</lastmod>
+  </url>
+  <url>
+    <loc>https://visionplaydev.github.io/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.github.io/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.github.io/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.github.io/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.github.io/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.github.io/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.github.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.github.io/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.github.io/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.github.io/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.github.io/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.github.io/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.github.io/"/>
+    <lastmod>2026-06-09</lastmod>
+  </url>
+  <url>
+    <loc>https://visionplaydev.github.io/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.github.io/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.github.io/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.github.io/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.github.io/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.github.io/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.github.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.github.io/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.github.io/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.github.io/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.github.io/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.github.io/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.github.io/"/>
+    <lastmod>2026-06-09</lastmod>
+  </url>
+  <url>
+    <loc>https://visionplaydev.github.io/de/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.github.io/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.github.io/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.github.io/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.github.io/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.github.io/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.github.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.github.io/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.github.io/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.github.io/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.github.io/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.github.io/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.github.io/"/>
+    <lastmod>2026-06-09</lastmod>
+  </url>
+  <url>
+    <loc>https://visionplaydev.github.io/it/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.github.io/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.github.io/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.github.io/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.github.io/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.github.io/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.github.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.github.io/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.github.io/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.github.io/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.github.io/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.github.io/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.github.io/"/>
+    <lastmod>2026-06-09</lastmod>
+  </url>
+  <url>
+    <loc>https://visionplaydev.github.io/pt/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.github.io/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.github.io/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.github.io/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.github.io/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.github.io/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.github.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.github.io/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.github.io/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.github.io/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.github.io/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.github.io/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.github.io/"/>
+    <lastmod>2026-06-09</lastmod>
+  </url>
+  <url>
+    <loc>https://visionplaydev.github.io/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.github.io/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.github.io/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.github.io/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.github.io/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.github.io/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.github.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.github.io/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.github.io/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.github.io/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.github.io/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.github.io/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.github.io/"/>
+    <lastmod>2026-06-09</lastmod>
+  </url>
+  <url>
+    <loc>https://visionplaydev.github.io/hi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.github.io/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.github.io/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.github.io/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.github.io/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.github.io/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.github.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.github.io/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.github.io/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.github.io/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.github.io/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.github.io/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.github.io/"/>
+    <lastmod>2026-06-09</lastmod>
+  </url>
+  <url>
+    <loc>https://visionplaydev.github.io/th/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.github.io/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.github.io/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.github.io/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.github.io/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.github.io/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.github.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.github.io/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.github.io/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.github.io/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.github.io/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.github.io/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.github.io/"/>
+    <lastmod>2026-06-09</lastmod>
+  </url>
+  <url>
+    <loc>https://visionplaydev.github.io/vi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.github.io/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.github.io/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.github.io/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.github.io/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.github.io/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.github.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.github.io/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.github.io/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.github.io/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.github.io/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.github.io/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.github.io/"/>
+    <lastmod>2026-06-09</lastmod>
+  </url>
+  <url>
+    <loc>https://visionplaydev.github.io/tr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.github.io/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.github.io/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.github.io/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.github.io/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.github.io/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.github.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.github.io/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.github.io/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.github.io/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.github.io/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.github.io/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.github.io/"/>
+    <lastmod>2026-06-09</lastmod>
+  </url>
+  <url>
+    <loc>https://visionplaydev.github.io/ar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.github.io/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.github.io/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.github.io/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.github.io/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.github.io/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.github.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.github.io/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.github.io/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.github.io/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.github.io/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.github.io/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.github.io/"/>
+    <lastmod>2026-06-09</lastmod>
   </url>
 </urlset>
