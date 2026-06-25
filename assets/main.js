@@ -113,34 +113,42 @@
     }
   }
 
-  /* ---------- In-phone screenshot carousel ---------- */
+  /* ---------- In-phone media carousel (videos / screenshots) ---------- */
   (function shotRotator() {
     const wrap = $("[data-shots]");
     const dotsWrap = $("[data-shot-dots]");
     if (!wrap) return;
     const shots = $$(".shot", wrap);
     if (!shots.length) return;
+    const isVideo = shots[0].tagName === "VIDEO";
     let idx = 0;
     const dots = shots.map((_, i) => {
       const b = document.createElement("button");
       b.type = "button";
-      b.setAttribute("aria-label", "Show screenshot " + (i + 1));
+      b.setAttribute("aria-label", "Show clip " + (i + 1));
       if (i === 0) b.classList.add("is-active");
       b.addEventListener("click", () => go(i, true));
       if (dotsWrap) dotsWrap.appendChild(b);
       return b;
     });
+    function playOnly(el) {
+      shots.forEach((s) => { if (s.tagName === "VIDEO" && s !== el) s.pause(); });
+      if (el.tagName === "VIDEO") { try { el.currentTime = 0; } catch (e) {} const p = el.play(); if (p && p.catch) p.catch(() => {}); }
+    }
     function go(n, user) {
       shots[idx].classList.remove("is-active");
       if (dots[idx]) dots[idx].classList.remove("is-active");
       idx = (n + shots.length) % shots.length;
       shots[idx].classList.add("is-active");
       if (dots[idx]) dots[idx].classList.add("is-active");
+      playOnly(shots[idx]);
       if (user) restart();
     }
     let timer = null;
-    function start() { if (!reduceMotion && shots.length > 1) timer = setInterval(() => go(idx + 1), 3400); }
+    const interval = isVideo ? 7000 : 3400;
+    function start() { if (!reduceMotion && shots.length > 1) timer = setInterval(() => go(idx + 1), interval); }
     function restart() { if (timer) clearInterval(timer); start(); }
+    playOnly(shots[0]);
     start();
   })();
 

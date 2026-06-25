@@ -43,7 +43,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="/assets/styles.css?v=ml4" />
+  <link rel="stylesheet" href="/assets/styles.css?v=ml5" />
 </head>
 <body>
 
@@ -109,9 +109,8 @@
           <div class="phone-notch"></div>
           <div class="phone-screen">
             <div class="shots" data-shots>
-              <img src="/assets/shots/shot1.jpg" alt="Block Lumi gameplay — combo line clear" class="shot is-active" />
-              <img src="/assets/shots/shot2.jpg" alt="Block Lumi gameplay — power-up blast" class="shot" loading="lazy" />
-              <img src="/assets/shots/shot3.jpg" alt="Block Lumi gameplay — gem collection stage" class="shot" loading="lazy" />
+              <video class="shot is-active" src="/assets/video/arena.mp4" muted loop playsinline autoplay preload="metadata" aria-label="Block Lumi Arena duel gameplay"></video>
+              <video class="shot" src="/assets/video/ads.mp4" muted loop playsinline preload="none" aria-label="Block Lumi gameplay"></video>
             </div>
           </div>
           <div class="shot-dots" data-shot-dots aria-hidden="true"></div>
@@ -153,12 +152,13 @@
         <img src="/assets/arena-banner.jpg" alt="Block Lumi Arena — Think fast. Attack hard. Be the champion." />
         <div class="arena-banner-glow" aria-hidden="true"></div>
       </div>
-      <p class="arena-items-head reveal" data-i18n="arenaItems">승부를 가르는 4가지 배틀 아이템</p>
+      <p class="arena-items-head reveal" data-i18n="arenaItems">승부를 가르는 5가지 배틀 아이템</p>
       <ul class="arena-items reveal">
         <li><span class="ai-ico">☄️</span><strong data-i18n="itMeteorN">메테오</strong><span data-i18n="itMeteorD">상대 필드를 산산조각</span></li>
         <li><span class="ai-ico">❄️</span><strong data-i18n="itBlizN">블리자드</strong><span data-i18n="itBlizD">상대 필드를 얼음으로 뒤덮기</span></li>
         <li><span class="ai-ico">🛡️</span><strong data-i18n="itBarN">배리어</strong><span data-i18n="itBarD">날아오는 공격을 방어</span></li>
         <li><span class="ai-ico">☀️</span><strong data-i18n="itSunN">썬</strong><span data-i18n="itSunD">내 필드를 녹여 반격</span></li>
+        <li><span class="ai-ico">🔄</span><strong data-i18n="itRevN">리버스</strong><span data-i18n="itRevD">상대의 조작을 좌우 반전 (듀얼 전용)</span></li>
       </ul>
       <div class="arena-cta reveal">
         <a class="btn btn-primary" href="#game" data-i18n="arenaCta">지금 대전하기</a>
@@ -176,9 +176,9 @@
         <p class="section-sub" data-i18n="avSub">친구에게 실시간 듀얼을 신청하고, 랭킹을 올리며 아바타와 화려한 보상 프레임을 수집하세요.</p>
       </div>
       <div class="avatar-show reveal" aria-hidden="true">
-        <span class="av-frame"><img class="av-char" src="/assets/anim/oc_boy.webp" alt="" loading="lazy" /></span>
+        <span class="av-slot"><img class="av-char" src="/assets/anim/oc_boy.webp" alt="" loading="lazy" /><img class="av-frame-img" src="/assets/anim/frame1.webp" alt="" loading="lazy" /></span>
         <img class="av-vs" src="/assets/anim/vs.webp" alt="" loading="lazy" />
-        <span class="av-frame"><img class="av-char" src="/assets/anim/oc_girl.webp" alt="" loading="lazy" /></span>
+        <span class="av-slot"><img class="av-char" src="/assets/anim/oc_girl.webp" alt="" loading="lazy" /><img class="av-frame-img" src="/assets/anim/frame2.webp" alt="" loading="lazy" /></span>
       </div>
     </div>
   </section>
@@ -300,6 +300,6 @@
     ]
   }
   </script>
-  <script src="/assets/main.js?v=ml4" defer></script>
+  <script src="/assets/main.js?v=ml5" defer></script>
 </body>
 </html>

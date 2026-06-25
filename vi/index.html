@@ -43,7 +43,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="/assets/styles.css?v=ml4" />
+  <link rel="stylesheet" href="/assets/styles.css?v=ml5" />
 </head>
 <body>
 
@@ -109,9 +109,8 @@
           <div class="phone-notch"></div>
           <div class="phone-screen">
             <div class="shots" data-shots>
-              <img src="/assets/shots/shot1.jpg" alt="Block Lumi gameplay — combo line clear" class="shot is-active" />
-              <img src="/assets/shots/shot2.jpg" alt="Block Lumi gameplay — power-up blast" class="shot" loading="lazy" />
-              <img src="/assets/shots/shot3.jpg" alt="Block Lumi gameplay — gem collection stage" class="shot" loading="lazy" />
+              <video class="shot is-active" src="/assets/video/arena.mp4" muted loop playsinline autoplay preload="metadata" aria-label="Block Lumi Arena duel gameplay"></video>
+              <video class="shot" src="/assets/video/ads.mp4" muted loop playsinline preload="none" aria-label="Block Lumi gameplay"></video>
             </div>
           </div>
           <div class="shot-dots" data-shot-dots aria-hidden="true"></div>
@@ -153,12 +152,13 @@
         <img src="/assets/arena-banner.jpg" alt="Block Lumi Arena — Think fast. Attack hard. Be the champion." />
         <div class="arena-banner-glow" aria-hidden="true"></div>
       </div>
-      <p class="arena-items-head reveal" data-i18n="arenaItems">4 vật phẩm chiến đấu định đoạt trận đấu</p>
+      <p class="arena-items-head reveal" data-i18n="arenaItems">5 vật phẩm chiến đấu định đoạt trận đấu</p>
       <ul class="arena-items reveal">
         <li><span class="ai-ico">☄️</span><strong data-i18n="itMeteorN">Thiên Thạch</strong><span data-i18n="itMeteorD">Nghiền nát sân đối thủ</span></li>
         <li><span class="ai-ico">❄️</span><strong data-i18n="itBlizN">Bão Tuyết</strong><span data-i18n="itBlizD">Chôn sân họ trong khối băng</span></li>
         <li><span class="ai-ico">🛡️</span><strong data-i18n="itBarN">Khiên Chắn</strong><span data-i18n="itBarD">Chặn các đòn tấn công bay tới</span></li>
         <li><span class="ai-ico">☀️</span><strong data-i18n="itSunN">Mặt Trời</strong><span data-i18n="itSunD">Làm tan sân của bạn để phản công</span></li>
+        <li><span class="ai-ico">🔄</span><strong data-i18n="itRevN">Đảo Chiều</strong><span data-i18n="itRevD">Đảo ngược điều khiển của đối thủ (chỉ khi đấu)</span></li>
       </ul>
       <div class="arena-cta reveal">
         <a class="btn btn-primary" href="#game" data-i18n="arenaCta">Chiến ngay</a>
@@ -176,9 +176,9 @@
         <p class="section-sub" data-i18n="avSub">Thách bạn bè đấu thời gian thực, rồi sưu tầm ảnh đại diện và khung phần thưởng lộng lẫy khi leo hạng.</p>
       </div>
       <div class="avatar-show reveal" aria-hidden="true">
-        <span class="av-frame"><img class="av-char" src="/assets/anim/oc_boy.webp" alt="" loading="lazy" /></span>
+        <span class="av-slot"><img class="av-char" src="/assets/anim/oc_boy.webp" alt="" loading="lazy" /><img class="av-frame-img" src="/assets/anim/frame1.webp" alt="" loading="lazy" /></span>
         <img class="av-vs" src="/assets/anim/vs.webp" alt="" loading="lazy" />
-        <span class="av-frame"><img class="av-char" src="/assets/anim/oc_girl.webp" alt="" loading="lazy" /></span>
+        <span class="av-slot"><img class="av-char" src="/assets/anim/oc_girl.webp" alt="" loading="lazy" /><img class="av-frame-img" src="/assets/anim/frame2.webp" alt="" loading="lazy" /></span>
       </div>
     </div>
   </section>
@@ -300,6 +300,6 @@
     ]
   }
   </script>
-  <script src="/assets/main.js?v=ml4" defer></script>
+  <script src="/assets/main.js?v=ml5" defer></script>
 </body>
 </html>

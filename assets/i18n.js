@@ -88,7 +88,7 @@ window.I18N = {
       "arenaEyebrow": "Real-time 1:1 Duels",
       "arenaH2": "Step into the <span class=\"grad-text\">Arena</span>",
       "arenaSub": "Challenge friends and rivals to real-time 1:1 duels. Clear lines to attack, bury them in garbage, and flip the match with powerful items — even Reverse, which flips their controls. Five minutes, one live showdown.",
-      "arenaItems": "4 battle items that decide the duel",
+      "arenaItems": "5 battle items that decide the duel",
       "arenaCta": "Battle now",
       "itMeteorN": "Meteor",
       "itMeteorD": "Smash the enemy field to pieces",
@@ -129,7 +129,9 @@ window.I18N = {
       "hl6": "⚡ Easy to learn, endlessly deep",
       "avEyebrow": "Make it yours",
       "avH2": "Duel friends as your own <span class=\"grad-text\">character</span>",
-      "avSub": "Challenge friends to real-time duels, then collect avatars and ornate reward frames as you climb the ranks."
+      "avSub": "Challenge friends to real-time duels, then collect avatars and ornate reward frames as you climb the ranks.",
+      "itRevN": "Reverse",
+      "itRevD": "Flips your rival's controls (duel only)"
     },
     "ko": {
       "navFeatures": "기능",
@@ -150,7 +152,7 @@ window.I18N = {
       "arenaEyebrow": "실시간 1:1 듀얼",
       "arenaH2": "<span class=\"grad-text\">아레나</span>에 입장하세요",
       "arenaSub": "친구와 라이벌에게 실시간 1:1 듀얼을 신청하세요. 라인을 지워 공격하고, 가비지에 파묻고, 강력한 아이템으로 전세를 뒤집으세요 — 상대 조작을 좌우 반전시키는 리버스까지. 5분, 단 한 번의 실시간 승부.",
-      "arenaItems": "승부를 가르는 4가지 배틀 아이템",
+      "arenaItems": "승부를 가르는 5가지 배틀 아이템",
       "arenaCta": "지금 대전하기",
       "itMeteorN": "메테오",
       "itMeteorD": "상대 필드를 산산조각",
@@ -191,7 +193,9 @@ window.I18N = {
       "hl6": "⚡ 쉽게 배우고, 끝없이 깊게",
       "avEyebrow": "나만의 스타일",
       "avH2": "나만의 <span class=\"grad-text\">캐릭터</span>로 친구와 듀얼",
-      "avSub": "친구에게 실시간 듀얼을 신청하고, 랭킹을 올리며 아바타와 화려한 보상 프레임을 수집하세요."
+      "avSub": "친구에게 실시간 듀얼을 신청하고, 랭킹을 올리며 아바타와 화려한 보상 프레임을 수집하세요.",
+      "itRevN": "리버스",
+      "itRevD": "상대의 조작을 좌우 반전 (듀얼 전용)"
     },
     "ja": {
       "navFeatures": "特長",
@@ -212,7 +216,7 @@ window.I18N = {
       "arenaEyebrow": "リアルタイム 1:1 デュエル",
       "arenaH2": "<span class=\"grad-text\">アリーナ</span>へ",
       "arenaSub": "フレンドやライバルにリアルタイム1:1デュエルを挑もう。ラインを消して攻撃し、ガベージに埋め、強力なアイテムで形勢を逆転 — 相手の操作を左右反転させるリバースまで。5分、たった一度のリアルタイム勝負。",
-      "arenaItems": "勝敗を分ける4つのバトルアイテム",
+      "arenaItems": "勝敗を分ける5つのバトルアイテム",
       "arenaCta": "今すぐ対戦",
       "itMeteorN": "メテオ",
       "itMeteorD": "相手フィールドを粉砕する爆撃",
@@ -253,7 +257,9 @@ window.I18N = {
       "hl6": "⚡ 簡単、奥深い",
       "avEyebrow": "自分だけのスタイル",
       "avH2": "自分だけの<span class=\"grad-text\">キャラ</span>でフレンドとデュエル",
-      "avSub": "フレンドにリアルタイムデュエルを挑み、ランクを上げてアバターと華麗な報酬フレームを集めよう。"
+      "avSub": "フレンドにリアルタイムデュエルを挑み、ランクを上げてアバターと華麗な報酬フレームを集めよう。",
+      "itRevN": "リバース",
+      "itRevD": "相手の操作を左右反転（デュエル限定）"
     },
     "zh-Hans": {
       "navFeatures": "特色",
@@ -274,7 +280,7 @@ window.I18N = {
       "arenaEyebrow": "实时 1:1 对决",
       "arenaH2": "踏入<span class=\"grad-text\">竞技场</span>",
       "arenaSub": "向好友和对手发起实时 1:1 对决。消行进攻，将对手埋进垃圾行，用强力道具翻盘——甚至还有让对手左右操作颠倒的「反转」。五分钟，一场实时定胜负。",
-      "arenaItems": "决定胜负的 4 种对战道具",
+      "arenaItems": "决定胜负的 5 种对战道具",
       "arenaCta": "立即对战",
       "itMeteorN": "陨石",
       "itMeteorD": "将敌方场地炸成碎片",
@@ -315,7 +321,9 @@ window.I18N = {
       "hl6": "⚡ 易学，深不见底",
       "avEyebrow": "打造专属风格",
       "avH2": "用<span class=\"grad-text\">专属角色</span>与好友对决",
-      "avSub": "向好友发起实时对决，随段位提升收集头像与华丽的奖励边框。"
+      "avSub": "向好友发起实时对决，随段位提升收集头像与华丽的奖励边框。",
+      "itRevN": "反转",
+      "itRevD": "让对手的操作左右颠倒（仅对决）"
     },
     "zh-Hant": {
       "navFeatures": "特色",
@@ -336,7 +344,7 @@ window.I18N = {
       "arenaEyebrow": "即時 1:1 對決",
       "arenaH2": "踏入<span class=\"grad-text\">競技場</span>",
       "arenaSub": "向好友和對手發起即時 1:1 對決。消行進攻，將對手埋進垃圾行，用強力道具翻盤——甚至還有讓對手左右操作顛倒的「反轉」。五分鐘，一場即時定勝負。",
-      "arenaItems": "決定勝負的 4 種對戰道具",
+      "arenaItems": "決定勝負的 5 種對戰道具",
       "arenaCta": "立即對戰",
       "itMeteorN": "隕石",
       "itMeteorD": "將敵方場地炸成碎片",
@@ -377,7 +385,9 @@ window.I18N = {
       "hl6": "⚡ 易學，深不見底",
       "avEyebrow": "打造專屬風格",
       "avH2": "用<span class=\"grad-text\">專屬角色</span>與好友對決",
-      "avSub": "向好友發起即時對決，隨段位提升收集頭像與華麗的獎勵邊框。"
+      "avSub": "向好友發起即時對決，隨段位提升收集頭像與華麗的獎勵邊框。",
+      "itRevN": "反轉",
+      "itRevD": "讓對手的操作左右顛倒（僅對決）"
     },
     "es": {
       "navFeatures": "Características",
@@ -398,7 +408,7 @@ window.I18N = {
       "arenaEyebrow": "Duelos 1:1 en tiempo real",
       "arenaH2": "Entra en la <span class=\"grad-text\">Arena</span>",
       "arenaSub": "Reta a amigos y rivales a duelos 1:1 en tiempo real. Elimina líneas para atacar, sepúltalos en basura y dale la vuelta con objetos poderosos — incluso Reverso, que invierte sus controles. Cinco minutos, un enfrentamiento en vivo.",
-      "arenaItems": "4 objetos de batalla que deciden el duelo",
+      "arenaItems": "5 objetos de batalla que deciden el duelo",
       "arenaCta": "Combatir ahora",
       "itMeteorN": "Meteoro",
       "itMeteorD": "Hace añicos el campo enemigo",
@@ -439,7 +449,9 @@ window.I18N = {
       "hl6": "⚡ Fácil de aprender, profundo sin fin",
       "avEyebrow": "Hazlo tuyo",
       "avH2": "Reta a amigos con tu propio <span class=\"grad-text\">personaje</span>",
-      "avSub": "Desafía a tus amigos a duelos en tiempo real y colecciona avatares y marcos de recompensa al subir de rango."
+      "avSub": "Desafía a tus amigos a duelos en tiempo real y colecciona avatares y marcos de recompensa al subir de rango.",
+      "itRevN": "Reverso",
+      "itRevD": "Invierte los controles del rival (solo duelo)"
     },
     "fr": {
       "navFeatures": "Fonctionnalités",
@@ -460,7 +472,7 @@ window.I18N = {
       "arenaEyebrow": "Duels 1:1 en temps réel",
       "arenaH2": "Entrez dans l'<span class=\"grad-text\">Arène</span>",
       "arenaSub": "Défiez amis et rivaux en duels 1:1 en temps réel. Effacez des lignes pour attaquer, ensevelissez-les sous les déchets et renversez la partie avec des objets puissants — même Inversion, qui inverse leurs commandes. Cinq minutes, un affrontement en direct.",
-      "arenaItems": "4 objets de combat qui décident du duel",
+      "arenaItems": "5 objets de combat qui décident du duel",
       "arenaCta": "Combattre",
       "itMeteorN": "Météore",
       "itMeteorD": "Pulvérise le terrain ennemi",
@@ -501,7 +513,9 @@ window.I18N = {
       "hl6": "⚡ Facile à apprendre, infiniment profond",
       "avEyebrow": "À votre image",
       "avH2": "Affrontez vos amis avec votre <span class=\"grad-text\">personnage</span>",
-      "avSub": "Défiez vos amis en duels en temps réel, puis collectionnez avatars et cadres de récompense en grimpant au classement."
+      "avSub": "Défiez vos amis en duels en temps réel, puis collectionnez avatars et cadres de récompense en grimpant au classement.",
+      "itRevN": "Inversion",
+      "itRevD": "Inverse les commandes du rival (duel uniquement)"
     },
     "de": {
       "navFeatures": "Features",
@@ -522,7 +536,7 @@ window.I18N = {
       "arenaEyebrow": "Echtzeit-1:1-Duelle",
       "arenaH2": "Betritt die <span class=\"grad-text\">Arena</span>",
       "arenaSub": "Fordere Freunde und Rivalen zu Echtzeit-1:1-Duellen heraus. Räume Linien zum Angriff ab, begrabe sie unter Müll und drehe das Match mit mächtigen Items — sogar Umkehr, das ihre Steuerung spiegelt. Fünf Minuten, ein Live-Showdown.",
-      "arenaItems": "4 Kampf-Items, die das Duell entscheiden",
+      "arenaItems": "5 Kampf-Items, die das Duell entscheiden",
       "arenaCta": "Jetzt kämpfen",
       "itMeteorN": "Meteor",
       "itMeteorD": "Zerschmettert das gegnerische Feld",
@@ -563,7 +577,9 @@ window.I18N = {
       "hl6": "⚡ Leicht zu lernen, endlos tief",
       "avEyebrow": "Mach es zu deinem",
       "avH2": "Duelliere Freunde als dein eigener <span class=\"grad-text\">Charakter</span>",
-      "avSub": "Fordere Freunde zu Echtzeit-Duellen heraus und sammle Avatare und prächtige Belohnungsrahmen, während du aufsteigst."
+      "avSub": "Fordere Freunde zu Echtzeit-Duellen heraus und sammle Avatare und prächtige Belohnungsrahmen, während du aufsteigst.",
+      "itRevN": "Umkehr",
+      "itRevD": "Spiegelt die Steuerung des Rivalen (nur Duell)"
     },
     "it": {
       "navFeatures": "Caratteristiche",
@@ -584,7 +600,7 @@ window.I18N = {
       "arenaEyebrow": "Duelli 1:1 in tempo reale",
       "arenaH2": "Entra nell'<span class=\"grad-text\">Arena</span>",
       "arenaSub": "Sfida amici e rivali a duelli 1:1 in tempo reale. Elimina linee per attaccare, seppelliscili sotto la spazzatura e ribalta la sfida con oggetti potenti — persino Inversione, che inverte i loro comandi. Cinque minuti, uno scontro dal vivo.",
-      "arenaItems": "4 oggetti da battaglia che decidono il duello",
+      "arenaItems": "5 oggetti da battaglia che decidono il duello",
       "arenaCta": "Combatti ora",
       "itMeteorN": "Meteora",
       "itMeteorD": "Frantuma il campo nemico",
@@ -625,7 +641,9 @@ window.I18N = {
       "hl6": "⚡ Facile da imparare, infinitamente profondo",
       "avEyebrow": "Rendilo tuo",
       "avH2": "Sfida gli amici con il tuo <span class=\"grad-text\">personaggio</span>",
-      "avSub": "Sfida gli amici a duelli in tempo reale e colleziona avatar e cornici premio scalando la classifica."
+      "avSub": "Sfida gli amici a duelli in tempo reale e colleziona avatar e cornici premio scalando la classifica.",
+      "itRevN": "Inversione",
+      "itRevD": "Inverte i comandi del rivale (solo duello)"
     },
     "pt": {
       "navFeatures": "Recursos",
@@ -646,7 +664,7 @@ window.I18N = {
       "arenaEyebrow": "Duelos 1:1 em tempo real",
       "arenaH2": "Entre na <span class=\"grad-text\">Arena</span>",
       "arenaSub": "Desafie amigos e rivais para duelos 1:1 em tempo real. Limpe linhas para atacar, enterre-os em lixo e vire o jogo com itens poderosos — até o Reverso, que inverte os controles do oponente. Cinco minutos, um confronto ao vivo.",
-      "arenaItems": "4 itens de batalha que decidem o duelo",
+      "arenaItems": "5 itens de batalha que decidem o duelo",
       "arenaCta": "Batalhar agora",
       "itMeteorN": "Meteoro",
       "itMeteorD": "Despedaça o campo inimigo",
@@ -687,7 +705,9 @@ window.I18N = {
       "hl6": "⚡ Fácil de aprender, infinitamente profundo",
       "avEyebrow": "Faça do seu jeito",
       "avH2": "Dispute com amigos usando seu <span class=\"grad-text\">personagem</span>",
-      "avSub": "Desafie amigos para duelos em tempo real e colecione avatares e molduras de recompensa ao subir de nível."
+      "avSub": "Desafie amigos para duelos em tempo real e colecione avatares e molduras de recompensa ao subir de nível.",
+      "itRevN": "Reverso",
+      "itRevD": "Inverte os controles do rival (só no duelo)"
     },
     "ru": {
       "navFeatures": "Возможности",
@@ -708,7 +728,7 @@ window.I18N = {
       "arenaEyebrow": "Дуэли 1:1 в реальном времени",
       "arenaH2": "Выходи на <span class=\"grad-text\">Арену</span>",
       "arenaSub": "Вызывайте друзей и соперников на дуэли 1:1 в реальном времени. Убирайте линии для атаки, заваливайте мусором и переломите бой мощными предметами — вплоть до Реверса, который переворачивает их управление. Пять минут, одна живая схватка.",
-      "arenaItems": "4 боевых предмета, решающих исход дуэли",
+      "arenaItems": "5 боевых предметов, решающих исход дуэли",
       "arenaCta": "В бой",
       "itMeteorN": "Метеор",
       "itMeteorD": "Разносит поле врага вдребезги",
@@ -749,7 +769,9 @@ window.I18N = {
       "hl6": "⚡ Легко освоить, бесконечно глубоко",
       "avEyebrow": "Сделай по-своему",
       "avH2": "Дуэли с друзьями за своего <span class=\"grad-text\">персонажа</span>",
-      "avSub": "Вызывайте друзей на дуэли в реальном времени и собирайте аватары и роскошные рамки-награды, поднимаясь в рейтинге."
+      "avSub": "Вызывайте друзей на дуэли в реальном времени и собирайте аватары и роскошные рамки-награды, поднимаясь в рейтинге.",
+      "itRevN": "Реверс",
+      "itRevD": "Переворачивает управление соперника (только дуэль)"
     },
     "hi": {
       "navFeatures": "विशेषताएँ",
@@ -770,7 +792,7 @@ window.I18N = {
       "arenaEyebrow": "रियल-टाइम 1:1 ड्यूल",
       "arenaH2": "<span class=\"grad-text\">अरीना</span> में कदम रखें",
       "arenaSub": "दोस्तों और प्रतिद्वंद्वियों को रियल-टाइम 1:1 ड्यूल की चुनौती दें। लाइनें साफ़ कर हमला करें, कचरे में दफ़्न करें और ताक़तवर आइटम से बाज़ी पलटें — यहाँ तक कि रिवर्स भी, जो उनके कंट्रोल उलट देता है। पाँच मिनट, एक लाइव मुक़ाबला।",
-      "arenaItems": "मुकाबला तय करने वाले 4 बैटल आइटम",
+      "arenaItems": "मुकाबला तय करने वाले 5 बैटल आइटम",
       "arenaCta": "अभी लड़ें",
       "itMeteorN": "मीटियर",
       "itMeteorD": "दुश्मन के मैदान को चकनाचूर करे",
@@ -811,7 +833,9 @@ window.I18N = {
       "hl6": "⚡ सीखना आसान, गहराई अनंत",
       "avEyebrow": "अपने अंदाज़ में",
       "avH2": "अपने <span class=\"grad-text\">किरदार</span> से दोस्तों संग ड्यूल",
-      "avSub": "दोस्तों को रियल-टाइम ड्यूल की चुनौती दें और रैंक बढ़ाते हुए अवतार और शानदार रिवॉर्ड फ्रेम जमा करें।"
+      "avSub": "दोस्तों को रियल-टाइम ड्यूल की चुनौती दें और रैंक बढ़ाते हुए अवतार और शानदार रिवॉर्ड फ्रेम जमा करें।",
+      "itRevN": "रिवर्स",
+      "itRevD": "प्रतिद्वंद्वी के कंट्रोल उलट देता है (सिर्फ़ ड्यूल)"
     },
     "th": {
       "navFeatures": "ฟีเจอร์",
@@ -832,7 +856,7 @@ window.I18N = {
       "arenaEyebrow": "ดวล 1:1 เรียลไทม์",
       "arenaH2": "ก้าวเข้าสู่<span class=\"grad-text\">อารีน่า</span>",
       "arenaSub": "ท้าเพื่อนและคู่แข่งดวล 1:1 แบบเรียลไทม์ ล้างแถวเพื่อโจมตี ฝังเขาในกองขยะ แล้วพลิกเกมด้วยไอเทมทรงพลัง — รวมถึงรีเวิร์สที่สลับการควบคุมของคู่แข่ง ห้านาที ตัดสินสดครั้งเดียว",
-      "arenaItems": "4 ไอเทมต่อสู้ที่ชี้ขาดการดวล",
+      "arenaItems": "5 ไอเทมต่อสู้ที่ชี้ขาดการดวล",
       "arenaCta": "สู้เลย",
       "itMeteorN": "เมเทเออร์",
       "itMeteorD": "ถล่มสนามศัตรูให้แหลกเป็นชิ้น",
@@ -873,7 +897,9 @@ window.I18N = {
       "hl6": "⚡ เล่นง่าย ลึกไม่รู้จบ",
       "avEyebrow": "ในแบบของคุณ",
       "avH2": "ดวลกับเพื่อนด้วย<span class=\"grad-text\">ตัวละคร</span>ของคุณ",
-      "avSub": "ท้าเพื่อนดวลแบบเรียลไทม์ แล้วสะสมอวตารและกรอบรางวัลสุดอลังการเมื่อไต่อันดับ"
+      "avSub": "ท้าเพื่อนดวลแบบเรียลไทม์ แล้วสะสมอวตารและกรอบรางวัลสุดอลังการเมื่อไต่อันดับ",
+      "itRevN": "รีเวิร์ส",
+      "itRevD": "สลับการควบคุมของคู่แข่ง (เฉพาะดวล)"
     },
     "vi": {
       "navFeatures": "Tính năng",
@@ -894,7 +920,7 @@ window.I18N = {
       "arenaEyebrow": "Đấu 1:1 thời gian thực",
       "arenaH2": "Bước vào <span class=\"grad-text\">Đấu Trường</span>",
       "arenaSub": "Thách đấu bạn bè và đối thủ trong các trận 1:1 thời gian thực. Xóa hàng để tấn công, chôn vùi họ trong rác và lật ngược thế trận bằng vật phẩm mạnh mẽ — kể cả Đảo Chiều, làm đảo ngược điều khiển của họ. Năm phút, một trận quyết đấu trực tiếp.",
-      "arenaItems": "4 vật phẩm chiến đấu định đoạt trận đấu",
+      "arenaItems": "5 vật phẩm chiến đấu định đoạt trận đấu",
       "arenaCta": "Chiến ngay",
       "itMeteorN": "Thiên Thạch",
       "itMeteorD": "Nghiền nát sân đối thủ",
@@ -935,7 +961,9 @@ window.I18N = {
       "hl6": "⚡ Dễ học, sâu vô tận",
       "avEyebrow": "Theo cách của bạn",
       "avH2": "Đấu với bạn bè bằng <span class=\"grad-text\">nhân vật</span> của riêng bạn",
-      "avSub": "Thách bạn bè đấu thời gian thực, rồi sưu tầm ảnh đại diện và khung phần thưởng lộng lẫy khi leo hạng."
+      "avSub": "Thách bạn bè đấu thời gian thực, rồi sưu tầm ảnh đại diện và khung phần thưởng lộng lẫy khi leo hạng.",
+      "itRevN": "Đảo Chiều",
+      "itRevD": "Đảo ngược điều khiển của đối thủ (chỉ khi đấu)"
     },
     "tr": {
       "navFeatures": "Özellikler",
@@ -956,7 +984,7 @@ window.I18N = {
       "arenaEyebrow": "Gerçek zamanlı 1:1 düellolar",
       "arenaH2": "<span class=\"grad-text\">Arena</span>'ya adım at",
       "arenaSub": "Arkadaşlarını ve rakiplerini gerçek zamanlı 1:1 düellolara davet et. Saldırmak için satır temizle, çöpe göm ve güçlü eşyalarla maçı çevir — rakibin kontrollerini ters çeviren Ters dâhil. Beş dakika, tek bir canlı hesaplaşma.",
-      "arenaItems": "Düelloyu belirleyen 4 savaş eşyası",
+      "arenaItems": "Düelloyu belirleyen 5 savaş eşyası",
       "arenaCta": "Şimdi savaş",
       "itMeteorN": "Meteor",
       "itMeteorD": "Düşman sahasını paramparça eder",
@@ -997,7 +1025,9 @@ window.I18N = {
       "hl6": "⚡ Öğrenmesi kolay, sonsuz derinlikte",
       "avEyebrow": "Sana özel",
       "avH2": "Arkadaşlarınla kendi <span class=\"grad-text\">karakterinle</span> düello yap",
-      "avSub": "Arkadaşlarını gerçek zamanlı düellolara davet et, sıralamada yükseldikçe avatarlar ve gösterişli ödül çerçeveleri topla."
+      "avSub": "Arkadaşlarını gerçek zamanlı düellolara davet et, sıralamada yükseldikçe avatarlar ve gösterişli ödül çerçeveleri topla.",
+      "itRevN": "Ters",
+      "itRevD": "Rakibin kontrollerini ters çevirir (yalnızca düello)"
     },
     "ar": {
       "navFeatures": "المميزات",
@@ -1018,7 +1048,7 @@ window.I18N = {
       "arenaEyebrow": "مبارزات 1:1 لحظية",
       "arenaH2": "ادخل <span class=\"grad-text\">الساحة</span>",
       "arenaSub": "تحدَّ أصدقاءك ومنافسيك في مبارزات 1:1 لحظية. امسح الصفوف للهجوم، وادفنهم تحت النفايات، واقلب المعركة بأدوات قوية — حتى «العكس» الذي يقلب تحكّمهم. خمس دقائق، مواجهة مباشرة واحدة.",
-      "arenaItems": "4 أدوات قتال تحسم المبارزة",
+      "arenaItems": "5 أدوات قتال تحسم المبارزة",
       "arenaCta": "قاتل الآن",
       "itMeteorN": "نيزك",
       "itMeteorD": "يحطّم رقعة العدو إربًا",
@@ -1059,7 +1089,9 @@ window.I18N = {
       "hl6": "⚡ سهلة التعلّم، عميقة بلا حدود",
       "avEyebrow": "اجعلها على ذوقك",
       "avH2": "نازل أصدقاءك بشخصيتك <span class=\"grad-text\">الخاصة</span>",
-      "avSub": "تحدَّ أصدقاءك في مبارزات لحظية، واجمع صورًا رمزية وإطارات مكافآت فاخرة كلما ارتقيت في التصنيف."
+      "avSub": "تحدَّ أصدقاءك في مبارزات لحظية، واجمع صورًا رمزية وإطارات مكافآت فاخرة كلما ارتقيت في التصنيف.",
+      "itRevN": "العكس",
+      "itRevD": "يعكس تحكّم منافسك (في المبارزة فقط)"
     }
   }
 };

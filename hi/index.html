@@ -43,7 +43,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="/assets/styles.css?v=ml4" />
+  <link rel="stylesheet" href="/assets/styles.css?v=ml5" />
 </head>
 <body>
 
@@ -109,9 +109,8 @@
           <div class="phone-notch"></div>
           <div class="phone-screen">
             <div class="shots" data-shots>
-              <img src="/assets/shots/shot1.jpg" alt="Block Lumi gameplay — combo line clear" class="shot is-active" />
-              <img src="/assets/shots/shot2.jpg" alt="Block Lumi gameplay — power-up blast" class="shot" loading="lazy" />
-              <img src="/assets/shots/shot3.jpg" alt="Block Lumi gameplay — gem collection stage" class="shot" loading="lazy" />
+              <video class="shot is-active" src="/assets/video/arena.mp4" muted loop playsinline autoplay preload="metadata" aria-label="Block Lumi Arena duel gameplay"></video>
+              <video class="shot" src="/assets/video/ads.mp4" muted loop playsinline preload="none" aria-label="Block Lumi gameplay"></video>
             </div>
           </div>
           <div class="shot-dots" data-shot-dots aria-hidden="true"></div>
@@ -153,12 +152,13 @@
         <img src="/assets/arena-banner.jpg" alt="Block Lumi Arena — Think fast. Attack hard. Be the champion." />
         <div class="arena-banner-glow" aria-hidden="true"></div>
       </div>
-      <p class="arena-items-head reveal" data-i18n="arenaItems">मुकाबला तय करने वाले 4 बैटल आइटम</p>
+      <p class="arena-items-head reveal" data-i18n="arenaItems">मुकाबला तय करने वाले 5 बैटल आइटम</p>
       <ul class="arena-items reveal">
         <li><span class="ai-ico">☄️</span><strong data-i18n="itMeteorN">मीटियर</strong><span data-i18n="itMeteorD">दुश्मन के मैदान को चकनाचूर करे</span></li>
         <li><span class="ai-ico">❄️</span><strong data-i18n="itBlizN">ब्लिज़र्ड</strong><span data-i18n="itBlizD">उसके मैदान को बर्फ़ से ढक दे</span></li>
         <li><span class="ai-ico">🛡️</span><strong data-i18n="itBarN">बैरियर</strong><span data-i18n="itBarD">आते हमलों से बचाव करे</span></li>
         <li><span class="ai-ico">☀️</span><strong data-i18n="itSunN">सन</strong><span data-i18n="itSunD">अपने मैदान को पिघलाकर पलटवार करें</span></li>
+        <li><span class="ai-ico">🔄</span><strong data-i18n="itRevN">रिवर्स</strong><span data-i18n="itRevD">प्रतिद्वंद्वी के कंट्रोल उलट देता है (सिर्फ़ ड्यूल)</span></li>
       </ul>
       <div class="arena-cta reveal">
         <a class="btn btn-primary" href="#game" data-i18n="arenaCta">अभी लड़ें</a>
@@ -176,9 +176,9 @@
         <p class="section-sub" data-i18n="avSub">दोस्तों को रियल-टाइम ड्यूल की चुनौती दें और रैंक बढ़ाते हुए अवतार और शानदार रिवॉर्ड फ्रेम जमा करें।</p>
       </div>
       <div class="avatar-show reveal" aria-hidden="true">
-        <span class="av-frame"><img class="av-char" src="/assets/anim/oc_boy.webp" alt="" loading="lazy" /></span>
+        <span class="av-slot"><img class="av-char" src="/assets/anim/oc_boy.webp" alt="" loading="lazy" /><img class="av-frame-img" src="/assets/anim/frame1.webp" alt="" loading="lazy" /></span>
         <img class="av-vs" src="/assets/anim/vs.webp" alt="" loading="lazy" />
-        <span class="av-frame"><img class="av-char" src="/assets/anim/oc_girl.webp" alt="" loading="lazy" /></span>
+        <span class="av-slot"><img class="av-char" src="/assets/anim/oc_girl.webp" alt="" loading="lazy" /><img class="av-frame-img" src="/assets/anim/frame2.webp" alt="" loading="lazy" /></span>
       </div>
     </div>
   </section>
@@ -300,6 +300,6 @@
     ]
   }
   </script>
-  <script src="/assets/main.js?v=ml4" defer></script>
+  <script src="/assets/main.js?v=ml5" defer></script>
 </body>
 </html>
