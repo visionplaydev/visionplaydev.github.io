@@ -126,7 +126,10 @@ window.I18N = {
       "hl3": "✨ Dazzling combo chains",
       "hl4": "🎣 Fishing mini-games for bonus coins",
       "hl5": "🎁 Daily rewards & lucky spins",
-      "hl6": "⚡ Easy to learn, endlessly deep"
+      "hl6": "⚡ Easy to learn, endlessly deep",
+      "avEyebrow": "Make it yours",
+      "avH2": "Duel friends as your own <span class=\"grad-text\">character</span>",
+      "avSub": "Challenge friends to real-time duels, then collect avatars and ornate reward frames as you climb the ranks."
     },
     "ko": {
       "navFeatures": "기능",
@@ -185,7 +188,10 @@ window.I18N = {
       "hl3": "✨ 화려한 콤보 체인",
       "hl4": "🎣 낚시 미니게임으로 보너스 코인",
       "hl5": "🎁 매일 보상 · 럭키 스핀",
-      "hl6": "⚡ 쉽게 배우고, 끝없이 깊게"
+      "hl6": "⚡ 쉽게 배우고, 끝없이 깊게",
+      "avEyebrow": "나만의 스타일",
+      "avH2": "나만의 <span class=\"grad-text\">캐릭터</span>로 친구와 듀얼",
+      "avSub": "친구에게 실시간 듀얼을 신청하고, 랭킹을 올리며 아바타와 화려한 보상 프레임을 수집하세요."
     },
     "ja": {
       "navFeatures": "特長",
@@ -244,7 +250,10 @@ window.I18N = {
       "hl3": "✨ 華麗なコンボチェイン",
       "hl4": "🎣 釣りミニゲームでボーナスコイン",
       "hl5": "🎁 デイリー報酬 & ラッキースピン",
-      "hl6": "⚡ 簡単、奥深い"
+      "hl6": "⚡ 簡単、奥深い",
+      "avEyebrow": "自分だけのスタイル",
+      "avH2": "自分だけの<span class=\"grad-text\">キャラ</span>でフレンドとデュエル",
+      "avSub": "フレンドにリアルタイムデュエルを挑み、ランクを上げてアバターと華麗な報酬フレームを集めよう。"
     },
     "zh-Hans": {
       "navFeatures": "特色",
@@ -303,7 +312,10 @@ window.I18N = {
       "hl3": "✨ 炫目的连击连锁",
       "hl4": "🎣 钓鱼小游戏赚奖励金币",
       "hl5": "🎁 每日奖励 & 幸运转盘",
-      "hl6": "⚡ 易学，深不见底"
+      "hl6": "⚡ 易学，深不见底",
+      "avEyebrow": "打造专属风格",
+      "avH2": "用<span class=\"grad-text\">专属角色</span>与好友对决",
+      "avSub": "向好友发起实时对决，随段位提升收集头像与华丽的奖励边框。"
     },
     "zh-Hant": {
       "navFeatures": "特色",
@@ -362,7 +374,10 @@ window.I18N = {
       "hl3": "✨ 炫目的連擊連鎖",
       "hl4": "🎣 釣魚小遊戲賺獎勵金幣",
       "hl5": "🎁 每日獎勵 & 幸運轉盤",
-      "hl6": "⚡ 易學，深不見底"
+      "hl6": "⚡ 易學，深不見底",
+      "avEyebrow": "打造專屬風格",
+      "avH2": "用<span class=\"grad-text\">專屬角色</span>與好友對決",
+      "avSub": "向好友發起即時對決，隨段位提升收集頭像與華麗的獎勵邊框。"
     },
     "es": {
       "navFeatures": "Características",
@@ -421,7 +436,10 @@ window.I18N = {
       "hl3": "✨ Deslumbrantes cadenas de combos",
       "hl4": "🎣 Minijuegos de pesca para monedas extra",
       "hl5": "🎁 Recompensas diarias y giros de la suerte",
-      "hl6": "⚡ Fácil de aprender, profundo sin fin"
+      "hl6": "⚡ Fácil de aprender, profundo sin fin",
+      "avEyebrow": "Hazlo tuyo",
+      "avH2": "Reta a amigos con tu propio <span class=\"grad-text\">personaje</span>",
+      "avSub": "Desafía a tus amigos a duelos en tiempo real y colecciona avatares y marcos de recompensa al subir de rango."
     },
     "fr": {
       "navFeatures": "Fonctionnalités",
@@ -480,7 +498,10 @@ window.I18N = {
       "hl3": "✨ D'éblouissantes chaînes de combos",
       "hl4": "🎣 Des mini-jeux de pêche pour des pièces bonus",
       "hl5": "🎁 Récompenses quotidiennes et tours de chance",
-      "hl6": "⚡ Facile à apprendre, infiniment profond"
+      "hl6": "⚡ Facile à apprendre, infiniment profond",
+      "avEyebrow": "À votre image",
+      "avH2": "Affrontez vos amis avec votre <span class=\"grad-text\">personnage</span>",
+      "avSub": "Défiez vos amis en duels en temps réel, puis collectionnez avatars et cadres de récompense en grimpant au classement."
     },
     "de": {
       "navFeatures": "Features",
@@ -539,7 +560,10 @@ window.I18N = {
       "hl3": "✨ Spektakuläre Combo-Ketten",
       "hl4": "🎣 Angel-Minispiele für Bonusmünzen",
       "hl5": "🎁 Tägliche Belohnungen & Glücksdrehs",
-      "hl6": "⚡ Leicht zu lernen, endlos tief"
+      "hl6": "⚡ Leicht zu lernen, endlos tief",
+      "avEyebrow": "Mach es zu deinem",
+      "avH2": "Duelliere Freunde als dein eigener <span class=\"grad-text\">Charakter</span>",
+      "avSub": "Fordere Freunde zu Echtzeit-Duellen heraus und sammle Avatare und prächtige Belohnungsrahmen, während du aufsteigst."
     },
     "it": {
       "navFeatures": "Caratteristiche",
@@ -598,7 +622,10 @@ window.I18N = {
       "hl3": "✨ Abbaglianti catene di combo",
       "hl4": "🎣 Minigiochi di pesca per monete bonus",
       "hl5": "🎁 Ricompense giornaliere e giri fortunati",
-      "hl6": "⚡ Facile da imparare, infinitamente profondo"
+      "hl6": "⚡ Facile da imparare, infinitamente profondo",
+      "avEyebrow": "Rendilo tuo",
+      "avH2": "Sfida gli amici con il tuo <span class=\"grad-text\">personaggio</span>",
+      "avSub": "Sfida gli amici a duelli in tempo reale e colleziona avatar e cornici premio scalando la classifica."
     },
     "pt": {
       "navFeatures": "Recursos",
@@ -657,7 +684,10 @@ window.I18N = {
       "hl3": "✨ Deslumbrantes cadeias de combos",
       "hl4": "🎣 Minijogos de pesca para moedas bônus",
       "hl5": "🎁 Recompensas diárias e giros da sorte",
-      "hl6": "⚡ Fácil de aprender, infinitamente profundo"
+      "hl6": "⚡ Fácil de aprender, infinitamente profundo",
+      "avEyebrow": "Faça do seu jeito",
+      "avH2": "Dispute com amigos usando seu <span class=\"grad-text\">personagem</span>",
+      "avSub": "Desafie amigos para duelos em tempo real e colecione avatares e molduras de recompensa ao subir de nível."
     },
     "ru": {
       "navFeatures": "Возможности",
@@ -716,7 +746,10 @@ window.I18N = {
       "hl3": "✨ Ослепительные цепочки комбо",
       "hl4": "🎣 Мини-игры рыбалки за бонусные монеты",
       "hl5": "🎁 Ежедневные награды и колесо удачи",
-      "hl6": "⚡ Легко освоить, бесконечно глубоко"
+      "hl6": "⚡ Легко освоить, бесконечно глубоко",
+      "avEyebrow": "Сделай по-своему",
+      "avH2": "Дуэли с друзьями за своего <span class=\"grad-text\">персонажа</span>",
+      "avSub": "Вызывайте друзей на дуэли в реальном времени и собирайте аватары и роскошные рамки-награды, поднимаясь в рейтинге."
     },
     "hi": {
       "navFeatures": "विशेषताएँ",
@@ -775,7 +808,10 @@ window.I18N = {
       "hl3": "✨ शानदार कॉम्बो चेन",
       "hl4": "🎣 बोनस सिक्कों के लिए फिशिंग मिनी-गेम",
       "hl5": "🎁 रोज़ इनाम और लकी स्पिन",
-      "hl6": "⚡ सीखना आसान, गहराई अनंत"
+      "hl6": "⚡ सीखना आसान, गहराई अनंत",
+      "avEyebrow": "अपने अंदाज़ में",
+      "avH2": "अपने <span class=\"grad-text\">किरदार</span> से दोस्तों संग ड्यूल",
+      "avSub": "दोस्तों को रियल-टाइम ड्यूल की चुनौती दें और रैंक बढ़ाते हुए अवतार और शानदार रिवॉर्ड फ्रेम जमा करें।"
     },
     "th": {
       "navFeatures": "ฟีเจอร์",
@@ -834,7 +870,10 @@ window.I18N = {
       "hl3": "✨ คอมโบเชนสุดตระการตา",
       "hl4": "🎣 มินิเกมตกปลารับเหรียญโบนัส",
       "hl5": "🎁 รางวัลรายวัน & วงล้อนำโชค",
-      "hl6": "⚡ เล่นง่าย ลึกไม่รู้จบ"
+      "hl6": "⚡ เล่นง่าย ลึกไม่รู้จบ",
+      "avEyebrow": "ในแบบของคุณ",
+      "avH2": "ดวลกับเพื่อนด้วย<span class=\"grad-text\">ตัวละคร</span>ของคุณ",
+      "avSub": "ท้าเพื่อนดวลแบบเรียลไทม์ แล้วสะสมอวตารและกรอบรางวัลสุดอลังการเมื่อไต่อันดับ"
     },
     "vi": {
       "navFeatures": "Tính năng",
@@ -893,7 +932,10 @@ window.I18N = {
       "hl3": "✨ Chuỗi combo rực rỡ",
       "hl4": "🎣 Minigame câu cá nhận xu thưởng",
       "hl5": "🎁 Thưởng mỗi ngày & vòng quay may mắn",
-      "hl6": "⚡ Dễ học, sâu vô tận"
+      "hl6": "⚡ Dễ học, sâu vô tận",
+      "avEyebrow": "Theo cách của bạn",
+      "avH2": "Đấu với bạn bè bằng <span class=\"grad-text\">nhân vật</span> của riêng bạn",
+      "avSub": "Thách bạn bè đấu thời gian thực, rồi sưu tầm ảnh đại diện và khung phần thưởng lộng lẫy khi leo hạng."
     },
     "tr": {
       "navFeatures": "Özellikler",
@@ -952,7 +994,10 @@ window.I18N = {
       "hl3": "✨ Göz kamaştıran kombo zincirleri",
       "hl4": "🎣 Bonus paralar için balık tutma mini oyunları",
       "hl5": "🎁 Günlük ödüller ve şans çarkı",
-      "hl6": "⚡ Öğrenmesi kolay, sonsuz derinlikte"
+      "hl6": "⚡ Öğrenmesi kolay, sonsuz derinlikte",
+      "avEyebrow": "Sana özel",
+      "avH2": "Arkadaşlarınla kendi <span class=\"grad-text\">karakterinle</span> düello yap",
+      "avSub": "Arkadaşlarını gerçek zamanlı düellolara davet et, sıralamada yükseldikçe avatarlar ve gösterişli ödül çerçeveleri topla."
     },
     "ar": {
       "navFeatures": "المميزات",
@@ -1011,7 +1056,10 @@ window.I18N = {
       "hl3": "✨ سلاسل كومبو خاطفة",
       "hl4": "🎣 ألعاب صيد مصغّرة لعملات إضافية",
       "hl5": "🎁 مكافآت يومية وعجلة الحظ",
-      "hl6": "⚡ سهلة التعلّم، عميقة بلا حدود"
+      "hl6": "⚡ سهلة التعلّم، عميقة بلا حدود",
+      "avEyebrow": "اجعلها على ذوقك",
+      "avH2": "نازل أصدقاءك بشخصيتك <span class=\"grad-text\">الخاصة</span>",
+      "avSub": "تحدَّ أصدقاءك في مبارزات لحظية، واجمع صورًا رمزية وإطارات مكافآت فاخرة كلما ارتقيت في التصنيف."
     }
   }
 };
