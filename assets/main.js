@@ -15,6 +15,24 @@
   const yearEl = $("[data-year]");
   if (yearEl) yearEl.textContent = String(new Date().getFullYear());
 
+  /* ---------- Content protection: block right-click / drag / select / copy / devtools+save shortcuts ---------- */
+  const _block = (e) => e.preventDefault();
+  document.addEventListener("contextmenu", _block);
+  document.addEventListener("dragstart", _block);
+  document.addEventListener("selectstart", _block);
+  document.addEventListener("copy", _block);
+  document.addEventListener("cut", _block);
+  document.addEventListener("keydown", (e) => {
+    const k = (e.key || "").toLowerCase();
+    if (
+      e.key === "F12" || e.keyCode === 123 ||
+      (e.ctrlKey && e.shiftKey && (k === "i" || k === "j" || k === "c")) ||
+      (e.ctrlKey && (k === "u" || k === "s" || k === "p" || k === "a" || k === "c"))
+    ) {
+      e.preventDefault();
+    }
+  });
+
   /* ---------- Language picker (each language is its own static page) ---------- */
   (function langPicker() {
     const LANGS = [

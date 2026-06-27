@@ -35,6 +35,8 @@ body{
   font-family:"Inter","Noto Sans KR",system-ui,-apple-system,sans-serif;
   line-height:1.65;
   overflow-x:hidden;
+  -webkit-user-select:none;-ms-user-select:none;user-select:none;
+  -webkit-touch-callout:none;
   -webkit-font-smoothing:antialiased;
 }
 img{max-width:100%;display:block}
