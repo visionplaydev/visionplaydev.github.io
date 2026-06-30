@@ -15,8 +15,12 @@
   const yearEl = $("[data-year]");
   if (yearEl) yearEl.textContent = String(new Date().getFullYear());
 
-  /* ---------- Content protection: block right-click / drag / select / copy / devtools+save shortcuts ---------- */
-  const _block = (e) => e.preventDefault();
+  /* ---------- Content protection (block right-click / drag / select / copy / devtools), except form fields ---------- */
+  const _isField = (e) => {
+    const t = e.target;
+    return !!t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.tagName === "SELECT" || t.isContentEditable);
+  };
+  const _block = (e) => { if (!_isField(e)) e.preventDefault(); };
   document.addEventListener("contextmenu", _block);
   document.addEventListener("dragstart", _block);
   document.addEventListener("selectstart", _block);
@@ -27,10 +31,63 @@
     if (
       e.key === "F12" || e.keyCode === 123 ||
       (e.ctrlKey && e.shiftKey && (k === "i" || k === "j" || k === "c")) ||
-      (e.ctrlKey && (k === "u" || k === "s" || k === "p" || k === "a" || k === "c"))
-    ) {
+      (e.ctrlKey && (k === "u" || k === "s" || k === "p"))
+    ) { e.preventDefault(); return; }
+    if (!_isField(e) && e.ctrlKey && (k === "a" || k === "c")) e.preventDefault();
+  });
+
+  /* ---------- Support form: Apps Script + Turnstile, with auto-attached environment info ---------- */
+  function envSummary() {
+    const ua = navigator.userAgent;
+    const os = /iPhone|iPad|iPod/.test(ua) ? "iOS"
+      : /Android/.test(ua) ? "Android"
+      : /Windows/.test(ua) ? "Windows"
+      : /Mac OS X|Macintosh/.test(ua) ? "macOS"
+      : /Linux/.test(ua) ? "Linux" : "?";
+    const br = /Edg\//.test(ua) ? "Edge"
+      : /OPR\/|Opera/.test(ua) ? "Opera"
+      : /SamsungBrowser/.test(ua) ? "Samsung"
+      : /Chrome\//.test(ua) ? "Chrome"
+      : /Firefox\//.test(ua) ? "Firefox"
+      : /Safari\//.test(ua) ? "Safari" : "?";
+    let tz = "";
+    try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ""; } catch (e) {}
+    const lang = document.documentElement.lang || navigator.language || "";
+    return [os, br, window.innerWidth + "×" + window.innerHeight, lang, tz].filter(Boolean).join(" · ");
+  }
+
+  $$("form.gform").forEach((form) => {
+    form.addEventListener("submit", (e) => {
       e.preventDefault();
-    }
+      if (form.elements.honeypot && form.elements.honeypot.value) return; // bot
+      const tk = form.querySelector('[name="cf-turnstile-response"]');
+      if (!tk || !tk.value) { alert("잠시 후 다시 시도해주세요. / Please try again in a moment."); return; }
+      const names = [], data = {};
+      Array.prototype.forEach.call(form.elements, (el) => {
+        if (!el.name || el.name === "honeypot") return;
+        if (el.name !== "cf-turnstile-response" && names.indexOf(el.name) === -1) names.push(el.name);
+        if (el.type === "radio" || el.type === "checkbox") { if (el.checked) data[el.name] = el.value; }
+        else data[el.name] = el.value;
+      });
+      // auto-attached basic info (web equivalent of the in-game support metadata)
+      data.env = envSummary();
+      data.userAgent = navigator.userAgent;
+      data.page = location.href;
+      data.referrer = document.referrer || "(direct)";
+      ["env", "userAgent", "page", "referrer"].forEach((n) => { if (names.indexOf(n) === -1) names.push(n); });
+      data.formDataNameOrder = JSON.stringify(names);
+      const btn = form.querySelector("button[type=submit]"); if (btn) btn.disabled = true;
+      const body = Object.keys(data).map((kk) => encodeURIComponent(kk) + "=" + encodeURIComponent(data[kk])).join("&");
+      const xhr = new XMLHttpRequest();
+      xhr.open("POST", form.action);
+      xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+      xhr.onreadystatechange = () => {
+        if (xhr.readyState !== 4) return;
+        const fe = form.querySelector(".form-elements"); if (fe) fe.style.display = "none";
+        const ty = form.querySelector(".thankyou_message"); if (ty) ty.style.display = "block";
+      };
+      xhr.send(body);
+    });
   });
 
   /* ---------- Language picker (each language is its own static page) ---------- */
@@ -51,7 +108,8 @@
       sel.addEventListener("change", () => {
         if (!sel.value) return;
         try { localStorage.setItem("vpd_lang_manual", "1"); } catch (e) {}
-        window.location.href = sel.value;
+        const onSupport = /\/support\/?$/.test(location.pathname);
+        window.location.href = onSupport ? sel.value + "support/" : sel.value;
       });
     });
   })();

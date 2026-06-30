@@ -269,6 +269,37 @@ section{scroll-margin-top:84px}
 .arena-items li span:last-child{font-size:.84rem;color:var(--ink-dim);line-height:1.45}
 @media (max-width:680px){.arena-items{grid-template-columns:repeat(2,1fr)}}
 
+/* =========================================================
+   SUPPORT PAGE (separate page, below the fixed header)
+   ========================================================= */
+.support-page{
+  min-height:72vh;padding:132px 0 92px;
+  background:
+    radial-gradient(ellipse 60% 50% at 50% 0%,rgba(58,123,255,.10),transparent 60%),
+    linear-gradient(180deg,#070a16,#090c1c);
+}
+.support-inner{max-width:620px;margin:0 auto}
+.support-page h1{font-size:clamp(1.8rem,4vw,2.6rem);text-align:center;margin:0}
+.support-page .support-sub{color:var(--ink-soft);font-size:1.02rem;text-align:center;margin:12px auto 32px;max-width:48ch}
+.support-form{text-align:left}
+.support-form .sf-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.support-form .sf-field{display:block;margin-bottom:15px}
+.support-form .sf-field>span{display:block;font-size:.86rem;color:var(--ink-soft);margin-bottom:6px;font-weight:500}
+.support-form input,.support-form select,.support-form textarea{
+  width:100%;padding:.72em .85em;border-radius:12px;
+  background:var(--panel);border:1px solid var(--panel-brd);color:var(--ink);
+  font-family:inherit;font-size:.95rem;-webkit-user-select:text;user-select:text;
+}
+.support-form textarea{resize:vertical;min-height:120px}
+.support-form input:focus,.support-form select:focus,.support-form textarea:focus{outline:none;border-color:var(--gold)}
+.support-form select option{color:#111;background:#fff}
+.support-form .sf-help{font-size:.8rem;color:var(--ink-dim);margin:-9px 0 16px;line-height:1.5}
+.support-form .sf-hp{position:absolute;left:-5000px;width:1px;height:1px;opacity:0}
+.support-form .cf-turnstile{margin:18px 0}
+.support-form button[type=submit]{width:100%;margin-top:6px}
+.support-form .thankyou_message{text-align:center;color:var(--ink);font-size:1.05rem;padding:34px 0}
+@media (max-width:520px){.support-form .sf-row{grid-template-columns:1fr}.support-page{padding:118px 0 70px}}
+
 /* RTL (Arabic) */
 [dir="rtl"] .game-copy,[dir="rtl"] .studio-copy{text-align:right}
 [dir="rtl"] .game-copy .chips,[dir="rtl"] .game-copy .rating,[dir="rtl"] .game-copy .store-badges{justify-content:flex-end}
