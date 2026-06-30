@@ -76,7 +76,8 @@
       data.referrer = document.referrer || "(direct)";
       ["env", "userAgent", "page", "referrer"].forEach((n) => { if (names.indexOf(n) === -1) names.push(n); });
       data.formDataNameOrder = JSON.stringify(names);
-      const btn = form.querySelector("button[type=submit]"); if (btn) btn.disabled = true;
+      const btn = form.querySelector("button[type=submit]");
+      if (btn) { btn.disabled = true; btn.innerHTML = '<span class="sf-spin" aria-hidden="true"></span>'; }
       const body = Object.keys(data).map((kk) => encodeURIComponent(kk) + "=" + encodeURIComponent(data[kk])).join("&");
       const xhr = new XMLHttpRequest();
       xhr.open("POST", form.action);
