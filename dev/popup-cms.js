@@ -5,21 +5,21 @@
       <script src="/dev/popup-cms.js"></script>
 
     구글시트 '어드민' 탭 = 테이블 (1행 헤더, 2~4행 = 팝업 최대 3개):
-      A노출(Y/N)  B제목  C내용  D버튼링크  E버튼문구  F시작일  G종료일  H상단이미지  I통이미지  J버튼색(셀 칠)
+      A노출(Y/N) B제목 C내용 D버튼링크 E버튼문구 F시작일 G종료일 H버튼색(셀 칠) I상단이미지 J통이미지
     · 노출=Y 인 팝업만 표시. 여러 개면 데스크탑=나란히 / 좁으면=계단식 겹침(반응형)
-    · "상단이미지"(H)=텍스트 위 이미지 / "통이미지"(I)=이미지 단독(넣으면 나머지 전부 무시, 클릭=버튼링크)
-    · 버튼색=J칸 색칠(또는 #헥사) · Drive 공유링크는 자동으로 직접URL 변환됨
+    · 상단이미지(I)=텍스트 위 / 통이미지(J)=이미지 단독(넣으면 나머지 무시, 클릭=버튼링크)
+    · 버튼색=H칸 색칠(또는 #헥사) · Drive 공유링크는 자동으로 직접URL 변환
+    · 속도: 캐시 즉시표시(SWR) → 백그라운드 최신확인 → 바뀌면 교체
 */
 (function(){
   var URL = window.POPUP_CMS_URL;
   if(!URL) return;
-  var LS = 'vpd_popup_dismiss';
+  var LS = 'vpd_popup_dismiss', CK = 'vpd_popup_cache';
 
   function ymd(d){ return d.getFullYear()+'-'+('0'+(d.getMonth()+1)).slice(-2)+'-'+('0'+d.getDate()).slice(-2); }
   try{ if(localStorage.getItem(LS)===ymd(new Date())) return; }catch(e){}
 
   function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(m){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m];}); }
-  // Drive 공유링크 → 직접표시 URL (서버에서도 변환하지만 클라도 안전망)
   function drive(v){
     var s=String(v||'').trim(); if(!s) return s;
     if(/lh3\.googleusercontent\.com/.test(s)) return s;
@@ -28,20 +28,42 @@
   }
   function urlish(v){ return v && /^(https?:\/\/|\/|data:)/i.test(String(v).trim()); }
 
-  fetch(URL, {method:'GET'})
-    .then(function(r){ return r.json(); })
-    .then(function(d){
-      var list = (d && d.popups) || [];
-      var today = new Date(); today.setHours(12,0,0,0);
-      var active = list.filter(function(c){
-        if(String(c.on||'').trim().toUpperCase()!=='Y') return false;
-        if(c.start){ var s=new Date(c.start); if(!isNaN(s.getTime()) && today<s) return false; }
-        if(c.end){ var e=new Date(c.end); if(!isNaN(e.getTime())){ e.setHours(23,59,59,999); if(today>e) return false; } }
-        return (c.title||'').trim() || (c.body||'').trim() || urlish(drive(c.full_image)) || urlish(drive(c.top_image));
-      }).slice(0, 3);
-      if(active.length) mount(active);
-    })
-    .catch(function(){ /* 조용히 무시 — 팝업은 부가 기능 */ });
+  function filterActive(list){
+    var today = new Date(); today.setHours(12,0,0,0);
+    return list.filter(function(c){
+      if(String(c.on||'').trim().toUpperCase()!=='Y') return false;
+      if(c.start){ var s=new Date(c.start); if(!isNaN(s.getTime()) && today<s) return false; }
+      if(c.end){ var e=new Date(c.end); if(!isNaN(e.getTime())){ e.setHours(23,59,59,999); if(today>e) return false; } }
+      return (c.title||'').trim() || (c.body||'').trim() || urlish(drive(c.full_image)) || urlish(drive(c.top_image));
+    }).slice(0, 3);
+  }
+
+  var overlay = null, closedByUser = false, shownRaw = null;
+
+  function display(list){
+    if(closedByUser) return;                 // 유저가 닫았으면 재표시 안함
+    var active = filterActive(list);
+    if(overlay){                             // 기존 표시 제거(교체)
+      if(overlay._onKey) document.removeEventListener('keydown', overlay._onKey);
+      if(overlay.parentNode) overlay.parentNode.removeChild(overlay);
+    }
+    overlay = active.length ? mount(active) : null;
+  }
+
+  // 1) 캐시 즉시 표시 (지연 0)
+  var cachedRaw = null;
+  try{ cachedRaw = localStorage.getItem(CK); }catch(e){}
+  if(cachedRaw){ try{ shownRaw = cachedRaw; display(JSON.parse(cachedRaw)); }catch(e){} }
+
+  // 2) 최신 fetch → 바뀌었으면 교체 (셀프 교정)
+  fetch(URL, {method:'GET'}).then(function(r){ return r.json(); }).then(function(d){
+    var list = (d && d.popups) || [];
+    var raw = JSON.stringify(list);
+    try{ localStorage.setItem(CK, raw); }catch(e){}
+    if(raw === shownRaw) return;              // 캐시와 동일 → 그대로
+    shownRaw = raw;
+    display(list);
+  }).catch(function(){ /* 조용히 무시 — 팝업은 부가 기능 */ });
 
   function injectStyle(){
     if(document.getElementById('vpdpop-style')) return;
@@ -58,7 +80,6 @@
     + '.vpdpop-cta{display:inline-block;margin-top:16px;padding:.8em 1.6em;border-radius:999px;font-weight:700;text-decoration:none;color:#241a00}'
     + '.vpdpop-top{width:100%;display:block;max-height:210px;object-fit:cover}'
     + '.vpdpop-full{width:100%;display:block;max-height:74vh;object-fit:contain;background:#0a0d20}'
-    // 좁은 화면: 옆으로 못 펼치면 상단기준 계단식 겹침 (뷰포트 기준 fixed cascade)
     + '@media(max-width:720px){'
     +   '.vpdpop-card{position:fixed;left:50%;top:20px;width:86vw;max-width:360px;max-height:84vh}'
     +   '.vpdpop-card:nth-child(1){transform:translateX(-50%);z-index:7}'
@@ -75,6 +96,7 @@
     ov.appendChild(track);
 
     function closeAll(setFlag){
+      closedByUser = true;
       if(setFlag){ try{ localStorage.setItem(LS, ymd(new Date())); }catch(e){} }
       ov.style.opacity = '0';
       setTimeout(function(){ if(ov.parentNode) ov.parentNode.removeChild(ov); }, 260);
@@ -84,7 +106,10 @@
     requestAnimationFrame(function(){ ov.style.opacity = '1'; });
 
     ov.addEventListener('click', function(e){ if(e.target===ov) closeAll(false); });
-    document.addEventListener('keydown', function onKey(e){ if(e.key==='Escape'){ closeAll(false); document.removeEventListener('keydown', onKey); } });
+    function onKey(e){ if(e.key==='Escape'){ closeAll(false); document.removeEventListener('keydown', onKey); } }
+    document.addEventListener('keydown', onKey);
+    ov._onKey = onKey;
+    return ov;
   }
 
   function buildCard(c, track, closeAll){
