@@ -4,17 +4,10 @@
       <script>window.POPUP_CMS_URL='<Apps Script 웹앱 /exec URL>';</script>
       <script src="/dev/popup-cms.js"></script>
 
-    구글시트 '설정' 탭 (A열=키, B열=값):
-      popup_on         Y            (Y면 노출, 그 외 숨김)
-      popup_title      여름 특별 할인 🎉
-      popup_body       7월 한 달간 전 상품 20% 할인! (줄바꿈 그대로 반영)
-      popup_start      2026-07-01    (선택, 이 날짜부터)
-      popup_end        2026-07-31    (선택, 이 날짜까지)
-      popup_link       https://...   (선택, 버튼 링크)
-      popup_link_text  자세히 보기    (선택, 버튼 문구)
-      popup_image      https://...   (선택, 상단 이미지 URL)
-      popup_accent     #f7c948       (선택, 포인트 색)
-    → 클라이언트는 popup_on 을 Y↔N 만 바꿔도 팝업 껐다 켰다. (실시간)
+    구글시트 '어드민' 탭 (A=키, B=값):
+      popup_on, popup_title, popup_body, popup_link, popup_link_text,
+      popup_start, popup_end, popup_image, popup_accent(셀 색칠도 인식)
+    · 제목·내용을 비우고 popup_image 만 넣으면 → "통이미지" 팝업(전체 이미지 · 클릭 시 링크)
 */
 (function(){
   var URL = window.POPUP_CMS_URL;
@@ -36,30 +29,41 @@
     })
     .catch(function(){ /* 조용히 무시 — 팝업은 부가 기능 */ });
 
+  function urlish(v){ return v && /^(https?:\/\/|\/|data:)/i.test(String(v).trim()); }
   function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(m){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m];}); }
 
-  function urlish(v){ return v && /^(https?:\/\/|\/|data:)/i.test(String(v).trim()); }
-
   function render(c){
-    var accent  = urlish(c.popup_accent) ? c.popup_accent : (/^#([0-9a-f]{3}|[0-9a-f]{6})$/i.test(String(c.popup_accent||'').trim()) ? String(c.popup_accent).trim() : '#f7c948');
+    var accent  = /^#([0-9a-f]{3}|[0-9a-f]{6})$/i.test(String(c.popup_accent||'').trim()) ? String(c.popup_accent).trim() : '#f7c948';
     var imgUrl  = urlish(c.popup_image) ? String(c.popup_image).trim() : '';
     var linkUrl = urlish(c.popup_link)  ? String(c.popup_link).trim()  : '';
-    var img  = imgUrl  ? '<img src="'+esc(imgUrl)+'" alt="" style="width:100%;display:block;max-height:230px;object-fit:cover">' : '';
-    var link = linkUrl ? '<a href="'+esc(linkUrl)+'" target="_blank" rel="noopener" style="display:inline-block;margin-top:18px;padding:.82em 1.7em;border-radius:999px;font-weight:700;text-decoration:none;color:#241a00;background:'+esc(accent)+'">'+esc(c.popup_link_text||'자세히 보기')+'</a>' : '';
+    var title   = (c.popup_title||'').trim();
+    var body    = (c.popup_body||'').trim();
+    var fullImage = imgUrl && !title && !body;   // 이미지만(제목·내용 없음) = 통이미지 팝업
 
     var ov = document.createElement('div');
     ov.setAttribute('style','position:fixed;inset:0;z-index:99999;display:flex;align-items:center;justify-content:center;padding:20px;background:rgba(4,6,14,.62);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);opacity:0;transition:opacity .25s ease');
-    ov.innerHTML =
-      '<div role="dialog" aria-modal="true" style="position:relative;max-width:400px;width:100%;background:#0e1330;color:#eaf0ff;border:1px solid rgba(255,255,255,.12);border-radius:20px;overflow:hidden;box-shadow:0 30px 70px rgba(0,0,0,.5);font-family:system-ui,-apple-system,\'Noto Sans KR\',sans-serif;transform:translateY(14px);transition:transform .25s ease">'
-      + img
-      + '<button aria-label="닫기" data-x style="position:absolute;top:10px;right:10px;width:34px;height:34px;border-radius:50%;border:0;cursor:pointer;background:rgba(0,0,0,.38);color:#fff;font-size:21px;line-height:1">&times;</button>'
-      + '<div style="padding:26px 24px 22px;text-align:center">'
-      +   '<h3 style="margin:0;font-size:1.32rem;font-weight:800;line-height:1.3;word-break:keep-all">'+esc(c.popup_title||'공지')+'</h3>'
-      +   '<p style="margin:12px 0 0;color:#aab4d6;font-size:.98rem;line-height:1.65;white-space:pre-line;word-break:keep-all">'+esc(c.popup_body||'')+'</p>'
-      +   link
-      + '</div>'
-      + '<label style="display:flex;align-items:center;justify-content:center;gap:7px;padding:14px;border-top:1px solid rgba(255,255,255,.08);color:#7a85ad;font-size:.85rem;cursor:pointer;background:rgba(255,255,255,.02)"><input type="checkbox" data-today style="accent-color:'+esc(accent)+'">오늘 하루 보지 않기</label>'
-      + '</div>';
+
+    var closeBtn = '<button aria-label="닫기" data-x style="position:absolute;top:10px;right:10px;width:34px;height:34px;border-radius:50%;border:0;cursor:pointer;background:rgba(0,0,0,.5);color:#fff;font-size:21px;line-height:1;z-index:2">&times;</button>';
+    var dismissBar = '<label style="display:flex;align-items:center;justify-content:center;gap:7px;padding:14px;border-top:1px solid rgba(255,255,255,.08);color:#7a85ad;font-size:.85rem;cursor:pointer;background:rgba(255,255,255,.02)"><input type="checkbox" data-today style="accent-color:'+esc(accent)+'">오늘 하루 보지 않기</label>';
+    var cardOpen = '<div role="dialog" aria-modal="true" style="position:relative;max-width:400px;width:100%;background:#0e1330;color:#eaf0ff;border:1px solid rgba(255,255,255,.12);border-radius:20px;overflow:hidden;box-shadow:0 30px 70px rgba(0,0,0,.5);font-family:system-ui,-apple-system,\'Noto Sans KR\',sans-serif;transform:translateY(14px);transition:transform .25s ease">';
+
+    var inner;
+    if(fullImage){
+      var imgTag = '<img src="'+esc(imgUrl)+'" alt="" style="width:100%;display:block">';
+      if(linkUrl) imgTag = '<a href="'+esc(linkUrl)+'" target="_blank" rel="noopener" style="display:block;line-height:0">'+imgTag+'</a>';
+      inner = cardOpen + closeBtn + imgTag + dismissBar + '</div>';
+    } else {
+      var img  = imgUrl  ? '<img src="'+esc(imgUrl)+'" alt="" style="width:100%;display:block;max-height:230px;object-fit:cover">' : '';
+      var link = linkUrl ? '<a href="'+esc(linkUrl)+'" target="_blank" rel="noopener" style="display:inline-block;margin-top:18px;padding:.82em 1.7em;border-radius:999px;font-weight:700;text-decoration:none;color:#241a00;background:'+esc(accent)+'">'+esc(c.popup_link_text||'자세히 보기')+'</a>' : '';
+      inner = cardOpen + img + closeBtn
+        + '<div style="padding:26px 24px 22px;text-align:center">'
+        +   '<h3 style="margin:0;font-size:1.32rem;font-weight:800;line-height:1.3;word-break:keep-all">'+esc(title||'공지')+'</h3>'
+        +   '<p style="margin:12px 0 0;color:#aab4d6;font-size:.98rem;line-height:1.65;white-space:pre-line;word-break:keep-all">'+esc(body)+'</p>'
+        +   link
+        + '</div>'
+        + dismissBar + '</div>';
+    }
+    ov.innerHTML = inner;
     document.body.appendChild(ov);
     requestAnimationFrame(function(){ ov.style.opacity='1'; ov.firstChild.style.transform='none'; });
 
