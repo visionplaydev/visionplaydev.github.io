@@ -5,10 +5,10 @@
       <script src="/dev/popup-cms.js"></script>
 
     구글시트 '어드민' 탭 = 테이블 (1행 헤더, 2~4행 = 팝업 최대 3개):
-      A노출(Y/N)  B제목  C내용  D버튼링크  E버튼문구  F시작일  G종료일  H이미지주소  I버튼색(셀 칠)
+      A노출(Y/N)  B제목  C내용  D버튼링크  E버튼문구  F시작일  G종료일  H상단이미지  I통이미지  J버튼색(셀 칠)
     · 노출=Y 인 팝업만 표시 · 여러 개 켜면 순서대로(닫으면 다음)
-    · 제목·내용 비우고 이미지만 넣으면 → "통이미지" 팝업(전체 이미지 · 클릭 시 링크)
-    · 버튼색 = I칸을 색칠(또는 #헥사코드)
+    · "상단이미지"(H) = 텍스트 위 이미지 / "통이미지"(I) = 이미지 단독(넣으면 나머지 전부 무시, 클릭 시 버튼링크로 이동)
+    · 버튼색 = J칸을 색칠(또는 #헥사코드)
 */
 (function(){
   var URL = window.POPUP_CMS_URL;
@@ -30,7 +30,7 @@
         if(String(c.on||'').trim().toUpperCase()!=='Y') return false;
         if(c.start){ var s=new Date(c.start); if(!isNaN(s.getTime()) && today<s) return false; }
         if(c.end){ var e=new Date(c.end); if(!isNaN(e.getTime())){ e.setHours(23,59,59,999); if(today>e) return false; } }
-        return (c.title||'').trim() || (c.body||'').trim() || urlish(c.image);  // 내용 있는 것만
+        return (c.title||'').trim() || (c.body||'').trim() || urlish(c.full_image) || urlish(c.top_image);  // 내용 있는 것만
       });
       showQueue(active, 0);
     })
@@ -44,11 +44,12 @@
 
   function render(c, done){
     var accent  = /^#([0-9a-f]{3}|[0-9a-f]{6})$/i.test(String(c.accent||'').trim()) ? String(c.accent).trim() : '#f7c948';
-    var imgUrl  = urlish(c.image) ? String(c.image).trim() : '';
+    var fullUrl = urlish(c.full_image) ? String(c.full_image).trim() : '';   // 통이미지(단독)
+    var topImg  = urlish(c.top_image)  ? String(c.top_image).trim()  : '';   // 상단 이미지(텍스트 위)
     var linkUrl = urlish(c.link)  ? String(c.link).trim()  : '';
     var title   = (c.title||'').trim();
     var body    = (c.body||'').trim();
-    var fullImage = imgUrl && !title && !body;   // 이미지만(제목·내용 없음) = 통이미지 팝업
+    var fullImage = !!fullUrl;   // 통이미지 값 있으면 = 이미지 단독(제목·내용·상단이미지·버튼 전부 무시)
 
     var ov = document.createElement('div');
     ov.setAttribute('style','position:fixed;inset:0;z-index:99999;display:flex;align-items:center;justify-content:center;padding:20px;background:rgba(4,6,14,.62);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);opacity:0;transition:opacity .25s ease');
@@ -59,11 +60,11 @@
 
     var inner;
     if(fullImage){
-      var imgTag = '<img src="'+esc(imgUrl)+'" alt="" style="width:100%;display:block">';
+      var imgTag = '<img src="'+esc(fullUrl)+'" alt="" style="width:100%;display:block">';
       if(linkUrl) imgTag = '<a href="'+esc(linkUrl)+'" target="_blank" rel="noopener" style="display:block;line-height:0">'+imgTag+'</a>';
       inner = cardOpen + closeBtn + imgTag + dismissBar + '</div>';
     } else {
-      var img  = imgUrl  ? '<img src="'+esc(imgUrl)+'" alt="" style="width:100%;display:block;max-height:230px;object-fit:cover">' : '';
+      var img  = topImg  ? '<img src="'+esc(topImg)+'" alt="" style="width:100%;display:block;max-height:230px;object-fit:cover">' : '';
       var link = linkUrl ? '<a href="'+esc(linkUrl)+'" target="_blank" rel="noopener" style="display:inline-block;margin-top:18px;padding:.82em 1.7em;border-radius:999px;font-weight:700;text-decoration:none;color:#241a00;background:'+esc(accent)+'">'+esc(c.link_text||'자세히 보기')+'</a>' : '';
       inner = cardOpen + img + closeBtn
         + '<div style="padding:26px 24px 22px;text-align:center">'
