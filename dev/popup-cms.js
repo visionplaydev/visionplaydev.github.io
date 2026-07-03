@@ -38,10 +38,14 @@
 
   function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(m){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m];}); }
 
+  function urlish(v){ return v && /^(https?:\/\/|\/|data:)/i.test(String(v).trim()); }
+
   function render(c){
-    var accent = c.popup_accent || '#f7c948';
-    var img  = c.popup_image ? '<img src="'+esc(c.popup_image)+'" alt="" style="width:100%;display:block;max-height:230px;object-fit:cover">' : '';
-    var link = c.popup_link ? '<a href="'+esc(c.popup_link)+'" target="_blank" rel="noopener" style="display:inline-block;margin-top:18px;padding:.82em 1.7em;border-radius:999px;font-weight:700;text-decoration:none;color:#241a00;background:'+esc(accent)+'">'+esc(c.popup_link_text||'자세히 보기')+'</a>' : '';
+    var accent  = urlish(c.popup_accent) ? c.popup_accent : (/^#([0-9a-f]{3}|[0-9a-f]{6})$/i.test(String(c.popup_accent||'').trim()) ? String(c.popup_accent).trim() : '#f7c948');
+    var imgUrl  = urlish(c.popup_image) ? String(c.popup_image).trim() : '';
+    var linkUrl = urlish(c.popup_link)  ? String(c.popup_link).trim()  : '';
+    var img  = imgUrl  ? '<img src="'+esc(imgUrl)+'" alt="" style="width:100%;display:block;max-height:230px;object-fit:cover">' : '';
+    var link = linkUrl ? '<a href="'+esc(linkUrl)+'" target="_blank" rel="noopener" style="display:inline-block;margin-top:18px;padding:.82em 1.7em;border-radius:999px;font-weight:700;text-decoration:none;color:#241a00;background:'+esc(accent)+'">'+esc(c.popup_link_text||'자세히 보기')+'</a>' : '';
 
     var ov = document.createElement('div');
     ov.setAttribute('style','position:fixed;inset:0;z-index:99999;display:flex;align-items:center;justify-content:center;padding:20px;background:rgba(4,6,14,.62);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);opacity:0;transition:opacity .25s ease');
