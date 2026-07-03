@@ -69,7 +69,7 @@
     if(document.getElementById('vpdpop-style')) return;
     var st = document.createElement('style'); st.id = 'vpdpop-style';
     st.textContent =
-      '.vpdpop-ov{position:fixed;inset:0;z-index:99999;display:flex;align-items:center;justify-content:center;padding:16px;background:rgba(4,6,14,.62);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);opacity:0;transition:opacity .25s ease}'
+      '.vpdpop-ov{position:fixed;inset:0;z-index:99999;display:flex;align-items:center;justify-content:center;padding:16px;overflow-y:auto;background:rgba(4,6,14,.62);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);opacity:0;transition:opacity .25s ease}'
     + '.vpdpop-track{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start;justify-content:center;max-width:100%}'
     + '.vpdpop-card{position:relative;flex:0 0 auto;width:300px;max-width:86vw;max-height:90vh;overflow:auto;background:#0e1330;color:#eaf0ff;border:1px solid rgba(255,255,255,.12);border-radius:18px;box-shadow:0 24px 60px rgba(0,0,0,.5);font-family:system-ui,-apple-system,\'Noto Sans KR\',sans-serif}'
     + '.vpdpop-x{position:absolute;top:8px;right:8px;width:32px;height:32px;border-radius:50%;border:0;cursor:pointer;background:rgba(0,0,0,.5);color:#fff;font-size:20px;line-height:1;z-index:2}'
