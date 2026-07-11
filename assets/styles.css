@@ -445,7 +445,10 @@ input:not([type="button"]):not([type="submit"]):not([type="checkbox"]):not([type
 .cursor-ripple.on{ opacity:1; }
 .cursor-ripple.on::before, .cursor-ripple.on::after{
   content:""; position:absolute; left:0; top:0; width:12px; height:12px; margin:-6px 0 0 -6px;
-  border:2px solid var(--cur-ring); border-radius:50%; animation:cur-ripple 1.125s ease-out infinite;
+  border:2px solid var(--cur-ring); border-radius:50%;
+  /* 다크 아웃라인 샌드위치 — 다크 배경(#070a16)에선 배경색이라 안 보이고, 노란 버튼 위에선 링 윤곽을 잡아 선명하게 */
+  box-shadow:0 0 0 1.5px rgba(7,10,22,.9), inset 0 0 0 1.5px rgba(7,10,22,.9);
+  animation:cur-ripple 1.125s ease-out infinite;
 }
 .cursor-ripple.on::after{ animation-delay:.56s; }
 @keyframes cur-ripple{ 0%{transform:scale(.35);opacity:.65} 100%{transform:scale(2.8);opacity:0} }
