@@ -272,4 +272,31 @@
     );
     reveals.forEach((r) => io.observe(r));
   }
+
+  // custom gold cursor ripple — 클릭 가능한 곳 위에서 커서 팁에서 링이 퍼짐 (터치기기 제외). 스타일은 styles.css
+  if (!(window.matchMedia && window.matchMedia("(pointer: coarse)").matches)) {
+    const ring = document.createElement("div");
+    ring.className = "cursor-ripple";
+    document.body.appendChild(ring);
+    let on = false;
+    const SEL = 'a[href],button,[role="button"],select,summary,label,.btn,.lang-select,.nav-toggle,.shot-dots button';
+    document.addEventListener(
+      "mousemove",
+      (e) => {
+        ring.style.left = e.clientX + "px";
+        ring.style.top = e.clientY + "px";
+        const el = e.target && e.target.closest ? e.target.closest(SEL) : null;
+        const clickable = !!el && !el.disabled && el.getAttribute("aria-disabled") !== "true";
+        if (clickable !== on) {
+          on = clickable;
+          ring.classList.toggle("on", on);
+        }
+      },
+      { passive: true }
+    );
+    document.addEventListener("mouseleave", () => {
+      on = false;
+      ring.classList.remove("on");
+    });
+  }
 })();
