@@ -429,8 +429,8 @@ section{scroll-margin-top:84px}
 
 /* ==== 커스텀 골드 화살촉 커서 + 클릭 리플 (dev/SellerScope와 동일 디자인, 골드) ==== */
 :root{
-  --cur:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 24 24'%3E%3Cpath d='M2.5 2.5 L18 9.5 L10.8 10.8 L9.5 18 Z' fill='%23f7c948' stroke='black' stroke-width='1.6' stroke-linejoin='round'/%3E%3Cpath d='M4 4 L12.5 7.8 L9 8.8 Z' fill='white' opacity='0.4'/%3E%3C/svg%3E") 3 3;
-  --cur-ring:#f7c948;
+  --cur:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 24 24'%3E%3Cpath d='M2.5 2.5 L18 9.5 L10.8 10.8 L9.5 18 Z' fill='%236366f1' stroke='black' stroke-width='1.6' stroke-linejoin='round'/%3E%3Cpath d='M4 4 L12.5 7.8 L9 8.8 Z' fill='white' opacity='0.4'/%3E%3C/svg%3E") 3 3;
+  --cur-ring:#6366f1;
 }
 html, body{ cursor:var(--cur), auto; }
 /* 손가락(pointer) 대신 화살표 유지 — 기존 cursor:pointer 클래스들을 같은 특이성으로 덮음. 클릭 힌트는 리플 링 */
@@ -445,9 +445,7 @@ input:not([type="button"]):not([type="submit"]):not([type="checkbox"]):not([type
 .cursor-ripple.on{ opacity:1; }
 .cursor-ripple.on::before, .cursor-ripple.on::after{
   content:""; position:absolute; left:0; top:0; width:12px; height:12px; margin:-6px 0 0 -6px;
-  border:2px solid var(--cur-ring); border-radius:50%;
-  /* 다크 아웃라인 샌드위치 — 다크 배경(#070a16)에선 배경색이라 안 보이고, 노란 버튼 위에선 링 윤곽을 잡아 선명하게 */
-  box-shadow:0 0 0 1.5px rgba(7,10,22,.9), inset 0 0 0 1.5px rgba(7,10,22,.9);
+  border:3px solid var(--cur-ring); border-radius:50%;
   animation:cur-ripple 1.125s ease-out infinite;
 }
 .cursor-ripple.on::after{ animation-delay:.56s; }
