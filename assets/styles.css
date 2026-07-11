@@ -446,7 +446,7 @@ input:not([type="button"]):not([type="submit"]):not([type="checkbox"]):not([type
 /* pseudo 링 상시 마운트+상시 애니 → 컴포지터 레이어를 로드시부터 워밍 → 첫 hover 콜드스타트(버벅) 없음. 표시는 컨테이너 opacity로만 토글 */
 .cursor-ripple::before, .cursor-ripple::after{
   content:""; position:absolute; left:0; top:0; width:12px; height:12px; margin:-6px 0 0 -6px;
-  border:3px solid var(--cur-ring); border-radius:50%;
+  border:4px solid var(--cur-ring); border-radius:50%;
   will-change:transform, opacity;
   animation:cur-ripple 1.125s ease-out infinite;
 }
