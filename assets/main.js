@@ -280,10 +280,8 @@
     document.body.appendChild(ring);
     let on = false;
     const SEL = 'a[href],button,[role="button"],select,summary,label,.btn,.lang-select,.nav-toggle,.shot-dots button';
-    // 레이어 프리워밍 — 첫 hover 때 컴포지터 레이어를 즉석에서 만드느라 버벅이는 걸 방지 (화면 밖에서 1회 워밍)
+    // pseudo 링을 상시 마운트+상시 애니(styles.css)로 컴포지터 레이어를 로드시부터 워밍 → 첫 hover 콜드스타트 없음. 초기 위치만 화면 밖.
     ring.style.transform = "translate3d(-100px,-100px,0)";
-    ring.classList.add("on");
-    requestAnimationFrame(() => requestAnimationFrame(() => ring.classList.remove("on")));
     // mousemove = rAF 스로틀 + transform 이동(left/top 레이아웃 리플로우 제거)
     let lastE = null, rafId = 0;
     const paint = () => {
