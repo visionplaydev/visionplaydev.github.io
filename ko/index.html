@@ -44,7 +44,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="/assets/styles.css?v=ml17" />
+  <link rel="stylesheet" href="/assets/styles.css?v=ml18" />
 </head>
 <body>
 
@@ -123,7 +123,7 @@
       <div class="game-copy">
         <span class="eyebrow reveal" data-i18n="gameEyebrow">대표 게임</span>
         <div class="game-logo reveal">
-          <img src="/assets/game-logo.png?v=ml17" alt="Block Lumi" />
+          <img src="/assets/game-logo.png?v=ml18" alt="Block Lumi" />
         </div>
         <div class="rating reveal">
           <span class="stars-5" aria-hidden="true">★★★★★</span>
@@ -178,9 +178,41 @@
         <p class="section-sub" data-i18n="avSub">친구에게 실시간 듀얼을 신청하고, 랭킹을 올리며 아바타와 화려한 보상 프레임을 수집하세요.</p>
       </div>
       <div class="avatar-show reveal" aria-hidden="true">
-        <span class="av-slot"><img class="av-char" src="/assets/anim/oc_boy.webp?v=ml17" alt="" loading="lazy" /><img class="av-frame-img" src="/assets/anim/frame2.webp?v=ml17" alt="" loading="lazy" /></span>
-        <img class="av-vs" src="/assets/anim/vs.webp?v=ml17" alt="" loading="lazy" />
-        <span class="av-slot"><img class="av-char" src="/assets/anim/oc_girl.webp?v=ml17" alt="" loading="lazy" /><img class="av-frame-img av-frame-rainbow" src="/assets/anim/frame1.webp?v=ml17" alt="" loading="lazy" /></span>
+        <span class="av-slot"><img class="av-char" src="/assets/anim/oc_boy.webp?v=ml18" alt="" loading="lazy" /><img class="av-frame-img" src="/assets/anim/frame2.webp?v=ml18" alt="" loading="lazy" /></span>
+        <img class="av-vs" src="/assets/anim/vs.webp?v=ml18" alt="" loading="lazy" />
+        <span class="av-slot"><img class="av-char" src="/assets/anim/oc_girl.webp?v=ml18" alt="" loading="lazy" /><img class="av-frame-img av-frame-rainbow" src="/assets/anim/frame1.webp?v=ml18" alt="" loading="lazy" /></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== MINI-GAME: SAVE THE RICO ===================== -->
+  <section class="minigame" id="rico">
+    <div class="stars stars-dim" aria-hidden="true"></div>
+    <div class="container minigame-inner">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="ricoEyebrow">신규 · 미니게임</span>
+        <h2 data-i18n="ricoH2"><span class="grad-text">리코</span>를 구해줘</h2>
+        <p class="section-sub" data-i18n="ricoSub">물이 빠르게 차오릅니다. 블록을 쌓아 튼튼한 탑을 세우고 고양이 리코를 물 위로 올려 구하세요 — 한 번만 잘못 쌓아도 와르르 무너집니다.</p>
+      </div>
+      <div class="minigame-body reveal">
+        <div class="phone-wrap">
+          <div class="phone">
+            <div class="phone-screen">
+              <div class="shots" data-shots>
+                <img class="shot is-active" src="/assets/rico-1.jpg" alt="Save the Rico mini-game — stack blocks to lift the cat above the rising water" />
+                <img class="shot" src="/assets/rico-2.jpg" alt="Save the Rico mini-game — a tall block tower with a combo" loading="lazy" />
+              </div>
+            </div>
+            <div class="shot-dots" data-shot-dots aria-hidden="true"></div>
+          </div>
+          <div class="phone-glow"></div>
+        </div>
+        <ul class="rico-feats">
+          <li><span class="rf-ico" aria-hidden="true">🐱</span><span class="rf-txt"><strong data-i18n="ricoF1N">리코 구출</strong><span data-i18n="ricoF1D">물이 닿기 전에 고양이를 안전하게 올리기</span></span></li>
+          <li><span class="rf-ico" aria-hidden="true">🌊</span><span class="rf-txt"><strong data-i18n="ricoF2N">차오르는 물</strong><span data-i18n="ricoF2D">물은 매 순간 더 높이 차오릅니다</span></span></li>
+          <li><span class="rf-ico" aria-hidden="true">🧱</span><span class="rf-txt"><strong data-i18n="ricoF3N">쌓기와 균형</strong><span data-i18n="ricoF3D">무너지지 않는 탑을 블록으로 쌓기</span></span></li>
+          <li><span class="rf-ico" aria-hidden="true">❤️</span><span class="rf-txt"><strong data-i18n="ricoF4N">생명 3개</strong><span data-i18n="ricoF4D">무너지면 생명 하나 — 얼마나 높이 갈 수 있나요?</span></span></li>
+        </ul>
       </div>
     </div>
   </section>
@@ -303,6 +335,6 @@
     ]
   }
   </script>
-  <script src="/assets/main.js?v=ml17" defer></script>
+  <script src="/assets/main.js?v=ml18" defer></script>
 </body>
 </html>

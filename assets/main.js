@@ -191,42 +191,44 @@
   }
 
   /* ---------- In-phone media carousel (videos / screenshots) ---------- */
-  (function shotRotator() {
-    const wrap = $("[data-shots]");
-    const dotsWrap = $("[data-shot-dots]");
-    if (!wrap) return;
-    const shots = $$(".shot", wrap);
-    if (!shots.length) return;
-    const isVideo = shots[0].tagName === "VIDEO";
-    let idx = 0;
-    const dots = shots.map((_, i) => {
-      const b = document.createElement("button");
-      b.type = "button";
-      b.setAttribute("aria-label", "Show clip " + (i + 1));
-      if (i === 0) b.classList.add("is-active");
-      b.addEventListener("click", () => go(i, true));
-      if (dotsWrap) dotsWrap.appendChild(b);
-      return b;
+  (function shotRotators() {
+    // 여러 폰(대표 게임 + 미니게임)이 각자 독립적으로 회전 — [data-shots]마다 개별 캐러셀
+    $$("[data-shots]").forEach((wrap) => {
+      const phone = wrap.closest(".phone") || wrap.parentElement;
+      const dotsWrap = phone ? $("[data-shot-dots]", phone) : null;
+      const shots = $$(".shot", wrap);
+      if (!shots.length) return;
+      const isVideo = shots[0].tagName === "VIDEO";
+      let idx = 0;
+      const dots = shots.map((_, i) => {
+        const b = document.createElement("button");
+        b.type = "button";
+        b.setAttribute("aria-label", "Show clip " + (i + 1));
+        if (i === 0) b.classList.add("is-active");
+        b.addEventListener("click", () => go(i, true));
+        if (dotsWrap) dotsWrap.appendChild(b);
+        return b;
+      });
+      function playOnly(el) {
+        shots.forEach((s) => { if (s.tagName === "VIDEO" && s !== el) s.pause(); });
+        if (el.tagName === "VIDEO") { try { el.currentTime = 0; } catch (e) {} const p = el.play(); if (p && p.catch) p.catch(() => {}); }
+      }
+      function go(n, user) {
+        shots[idx].classList.remove("is-active");
+        if (dots[idx]) dots[idx].classList.remove("is-active");
+        idx = (n + shots.length) % shots.length;
+        shots[idx].classList.add("is-active");
+        if (dots[idx]) dots[idx].classList.add("is-active");
+        playOnly(shots[idx]);
+        if (user) restart();
+      }
+      let timer = null;
+      const interval = isVideo ? 7000 : 3400;
+      function start() { if (!reduceMotion && shots.length > 1) timer = setInterval(() => go(idx + 1), interval); }
+      function restart() { if (timer) clearInterval(timer); start(); }
+      playOnly(shots[0]);
+      start();
     });
-    function playOnly(el) {
-      shots.forEach((s) => { if (s.tagName === "VIDEO" && s !== el) s.pause(); });
-      if (el.tagName === "VIDEO") { try { el.currentTime = 0; } catch (e) {} const p = el.play(); if (p && p.catch) p.catch(() => {}); }
-    }
-    function go(n, user) {
-      shots[idx].classList.remove("is-active");
-      if (dots[idx]) dots[idx].classList.remove("is-active");
-      idx = (n + shots.length) % shots.length;
-      shots[idx].classList.add("is-active");
-      if (dots[idx]) dots[idx].classList.add("is-active");
-      playOnly(shots[idx]);
-      if (user) restart();
-    }
-    let timer = null;
-    const interval = isVideo ? 7000 : 3400;
-    function start() { if (!reduceMotion && shots.length > 1) timer = setInterval(() => go(idx + 1), interval); }
-    function restart() { if (timer) clearInterval(timer); start(); }
-    playOnly(shots[0]);
-    start();
   })();
 
   /* ---------- Store badges (injected) ---------- */
