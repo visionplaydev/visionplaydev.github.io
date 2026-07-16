@@ -1,675 +1,675 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://visionplaydev.uk/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/"/>
+    <loc>https://blocklumi.visionplay.dev/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/ko/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/"/>
+    <loc>https://blocklumi.visionplay.dev/ko/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/ja/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/"/>
+    <loc>https://blocklumi.visionplay.dev/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/zh-Hans/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/"/>
+    <loc>https://blocklumi.visionplay.dev/zh-Hans/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/zh-Hant/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/"/>
+    <loc>https://blocklumi.visionplay.dev/zh-Hant/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/es/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/"/>
+    <loc>https://blocklumi.visionplay.dev/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/fr/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/"/>
+    <loc>https://blocklumi.visionplay.dev/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/de/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/"/>
+    <loc>https://blocklumi.visionplay.dev/de/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/it/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/"/>
+    <loc>https://blocklumi.visionplay.dev/it/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/pt/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/"/>
+    <loc>https://blocklumi.visionplay.dev/pt/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/ru/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/"/>
+    <loc>https://blocklumi.visionplay.dev/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/hi/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/"/>
+    <loc>https://blocklumi.visionplay.dev/hi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/th/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/"/>
+    <loc>https://blocklumi.visionplay.dev/th/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/vi/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/"/>
+    <loc>https://blocklumi.visionplay.dev/vi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/tr/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/"/>
+    <loc>https://blocklumi.visionplay.dev/tr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/ar/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/"/>
+    <loc>https://blocklumi.visionplay.dev/ar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/support/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/support/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/support/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/support/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/support/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/support/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/support/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/support/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/support/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/support/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/support/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/support/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/support/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/support/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/support/"/>
+    <loc>https://blocklumi.visionplay.dev/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/support/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/ko/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/support/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/support/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/support/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/support/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/support/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/support/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/support/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/support/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/support/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/support/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/support/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/support/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/support/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/support/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/support/"/>
+    <loc>https://blocklumi.visionplay.dev/ko/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/support/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/ja/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/support/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/support/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/support/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/support/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/support/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/support/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/support/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/support/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/support/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/support/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/support/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/support/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/support/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/support/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/support/"/>
+    <loc>https://blocklumi.visionplay.dev/ja/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/support/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/zh-Hans/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/support/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/support/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/support/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/support/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/support/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/support/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/support/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/support/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/support/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/support/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/support/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/support/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/support/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/support/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/support/"/>
+    <loc>https://blocklumi.visionplay.dev/zh-Hans/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/support/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/zh-Hant/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/support/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/support/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/support/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/support/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/support/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/support/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/support/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/support/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/support/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/support/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/support/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/support/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/support/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/support/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/support/"/>
+    <loc>https://blocklumi.visionplay.dev/zh-Hant/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/support/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/es/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/support/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/support/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/support/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/support/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/support/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/support/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/support/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/support/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/support/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/support/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/support/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/support/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/support/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/support/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/support/"/>
+    <loc>https://blocklumi.visionplay.dev/es/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/support/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/fr/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/support/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/support/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/support/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/support/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/support/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/support/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/support/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/support/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/support/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/support/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/support/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/support/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/support/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/support/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/support/"/>
+    <loc>https://blocklumi.visionplay.dev/fr/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/support/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/de/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/support/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/support/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/support/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/support/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/support/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/support/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/support/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/support/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/support/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/support/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/support/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/support/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/support/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/support/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/support/"/>
+    <loc>https://blocklumi.visionplay.dev/de/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/support/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/it/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/support/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/support/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/support/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/support/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/support/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/support/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/support/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/support/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/support/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/support/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/support/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/support/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/support/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/support/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/support/"/>
+    <loc>https://blocklumi.visionplay.dev/it/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/support/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/pt/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/support/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/support/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/support/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/support/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/support/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/support/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/support/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/support/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/support/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/support/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/support/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/support/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/support/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/support/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/support/"/>
+    <loc>https://blocklumi.visionplay.dev/pt/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/support/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/ru/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/support/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/support/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/support/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/support/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/support/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/support/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/support/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/support/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/support/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/support/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/support/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/support/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/support/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/support/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/support/"/>
+    <loc>https://blocklumi.visionplay.dev/ru/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/support/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/hi/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/support/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/support/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/support/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/support/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/support/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/support/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/support/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/support/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/support/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/support/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/support/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/support/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/support/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/support/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/support/"/>
+    <loc>https://blocklumi.visionplay.dev/hi/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/support/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/th/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/support/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/support/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/support/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/support/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/support/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/support/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/support/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/support/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/support/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/support/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/support/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/support/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/support/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/support/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/support/"/>
+    <loc>https://blocklumi.visionplay.dev/th/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/support/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/vi/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/support/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/support/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/support/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/support/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/support/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/support/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/support/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/support/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/support/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/support/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/support/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/support/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/support/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/support/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/support/"/>
+    <loc>https://blocklumi.visionplay.dev/vi/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/support/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/tr/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/support/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/support/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/support/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/support/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/support/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/support/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/support/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/support/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/support/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/support/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/support/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/support/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/support/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/support/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/support/"/>
+    <loc>https://blocklumi.visionplay.dev/tr/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/support/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
   <url>
-    <loc>https://visionplaydev.uk/ar/support/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://visionplaydev.uk/support/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://visionplaydev.uk/ko/support/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://visionplaydev.uk/ja/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://visionplaydev.uk/zh-Hans/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://visionplaydev.uk/zh-Hant/support/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://visionplaydev.uk/es/support/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://visionplaydev.uk/fr/support/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://visionplaydev.uk/de/support/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://visionplaydev.uk/it/support/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://visionplaydev.uk/pt/support/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://visionplaydev.uk/ru/support/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://visionplaydev.uk/hi/support/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://visionplaydev.uk/th/support/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://visionplaydev.uk/vi/support/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://visionplaydev.uk/tr/support/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://visionplaydev.uk/ar/support/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://visionplaydev.uk/support/"/>
+    <loc>https://blocklumi.visionplay.dev/ar/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blocklumi.visionplay.dev/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://blocklumi.visionplay.dev/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blocklumi.visionplay.dev/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://blocklumi.visionplay.dev/zh-Hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blocklumi.visionplay.dev/zh-Hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blocklumi.visionplay.dev/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blocklumi.visionplay.dev/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blocklumi.visionplay.dev/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blocklumi.visionplay.dev/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://blocklumi.visionplay.dev/pt/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blocklumi.visionplay.dev/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://blocklumi.visionplay.dev/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://blocklumi.visionplay.dev/th/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://blocklumi.visionplay.dev/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blocklumi.visionplay.dev/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://blocklumi.visionplay.dev/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blocklumi.visionplay.dev/support/"/>
     <lastmod>2026-06-30</lastmod>
   </url>
 </urlset>

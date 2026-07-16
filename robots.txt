@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://visionplaydev.uk/sitemap.xml
+Sitemap: https://blocklumi.visionplay.dev/sitemap.xml
