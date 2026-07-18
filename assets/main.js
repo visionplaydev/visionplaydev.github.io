@@ -1,5 +1,5 @@
 /* =========================================================
-   Vision Play — landing interactions
+   Vision Play - landing interactions
    ========================================================= */
 (function () {
   "use strict";
@@ -192,7 +192,7 @@
 
   /* ---------- In-phone media carousel (videos / screenshots) ---------- */
   (function shotRotators() {
-    // 여러 폰(대표 게임 + 미니게임)이 각자 독립적으로 회전 — [data-shots]마다 개별 캐러셀
+    // 여러 폰(대표 게임 + 미니게임)이 각자 독립적으로 회전 - [data-shots]마다 개별 캐러셀
     $$("[data-shots]").forEach((wrap) => {
       const phone = wrap.closest(".phone") || wrap.parentElement;
       const dotsWrap = phone ? $("[data-shot-dots]", phone) : null;
@@ -275,7 +275,7 @@
     reveals.forEach((r) => io.observe(r));
   }
 
-  // custom gold cursor ripple — 클릭 가능한 곳 위에서 커서 팁에서 링이 퍼짐 (터치기기 제외). 스타일은 styles.css
+  // custom gold cursor ripple - 클릭 가능한 곳 위에서 커서 팁에서 링이 퍼짐 (터치기기 제외). 스타일은 styles.css
   if (!(window.matchMedia && window.matchMedia("(pointer: coarse)").matches)) {
     const ring = document.createElement("div");
     ring.className = "cursor-ripple";

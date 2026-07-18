@@ -1,5 +1,5 @@
 /* =========================================================
-   Vision Play — landing page
+   Vision Play - landing page
    Dark, premium, "glowing block" aesthetic
    ========================================================= */
 
@@ -455,7 +455,7 @@ section{scroll-margin-top:84px}
   --cur-ring:#6366f1;
 }
 html, body{ cursor:var(--cur), auto; }
-/* 손가락(pointer) 대신 화살표 유지 — 기존 cursor:pointer 클래스들을 같은 특이성으로 덮음. 클릭 힌트는 리플 링 */
+/* 손가락(pointer) 대신 화살표 유지 - 기존 cursor:pointer 클래스들을 같은 특이성으로 덮음. 클릭 힌트는 리플 링 */
 a, button, summary, label, select, [role="button"],
 .btn, .lang-select, .nav-toggle, .shot-dots button{
   cursor:var(--cur), auto;
